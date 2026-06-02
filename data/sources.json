@@ -1,0 +1,292 @@
+{
+  "fred": [
+    {
+      "id": "SP500",
+      "name": "S&P 500",
+      "file": "sp500.csv"
+    },
+    {
+      "id": "NASDAQCOM",
+      "name": "Nasdaq Composite",
+      "file": "nasdaq.csv"
+    },
+    {
+      "id": "DJIA",
+      "name": "Dow Jones Industrial Average",
+      "file": "dow.csv"
+    },
+    {
+      "id": "VIXCLS",
+      "name": "VIX",
+      "file": "vix.csv"
+    },
+    {
+      "id": "DGS10",
+      "name": "US 10Y Treasury Yield",
+      "file": "us10y.csv"
+    },
+    {
+      "id": "DCOILWTICO",
+      "name": "WTI Crude Oil",
+      "file": "wti.csv"
+    },
+    {
+      "id": "DTWEXBGS",
+      "name": "Trade Weighted US Dollar Index",
+      "file": "dollar-index.csv"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "name": "US High Yield Option-Adjusted Spread",
+      "file": "high-yield-spread.csv"
+    },
+    {
+      "id": "DGS2",
+      "name": "US 2Y Treasury Yield",
+      "file": "us2y.csv"
+    },
+    {
+      "id": "DGS30",
+      "name": "US 30Y Treasury Yield",
+      "file": "us30y.csv"
+    }
+  ],
+  "yahoo": [
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "file": "sp500.json"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "Nasdaq Composite",
+      "file": "nasdaq.json"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "file": "dow.json"
+    },
+    {
+      "symbol": "^RUT",
+      "name": "Russell 2000",
+      "file": "russell2000.json"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "VIX",
+      "file": "vix.json"
+    },
+    {
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "file": "kospi.json"
+    },
+    {
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "file": "nikkei225.json"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "file": "hangseng.json"
+    },
+    {
+      "symbol": "000001.SS",
+      "name": "Shanghai Composite",
+      "file": "shanghai.json"
+    },
+    {
+      "symbol": "^STOXX",
+      "name": "STOXX Europe 600",
+      "file": "stoxx600.json"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "US Dollar Index",
+      "file": "dxy.json"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "Gold Futures",
+      "file": "gold.json"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "WTI Crude Oil Futures",
+      "file": "wti-futures.json"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "Brent Crude Oil Futures",
+      "file": "brent-futures.json"
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "file": "bitcoin.json"
+    },
+    {
+      "symbol": "USDJPY=X",
+      "name": "USD/JPY",
+      "file": "usd-jpy.json"
+    },
+    {
+      "symbol": "KRW=X",
+      "name": "USD/KRW",
+      "file": "usd-krw.json"
+    }
+  ],
+  "stooq": [
+    {
+      "symbol": "^spx",
+      "name": "S&P 500",
+      "file": "sp500.csv"
+    },
+    {
+      "symbol": "^ndq",
+      "name": "Nasdaq Composite",
+      "file": "nasdaq.csv"
+    },
+    {
+      "symbol": "^dji",
+      "name": "Dow Jones Industrial Average",
+      "file": "dow.csv"
+    }
+  ],
+  "us_watchlist": [
+    "SPY",
+    "QQQ",
+    "DIA",
+    "IWM",
+    "RSP",
+    "SMH",
+    "XLF",
+    "XLE",
+    "XLV",
+    "XLY",
+    "XLP",
+    "XLI",
+    "XLU",
+    "XLB",
+    "XLRE",
+    "NVDA",
+    "AMD",
+    "MSFT",
+    "AAPL",
+    "TSLA",
+    "MU",
+    "DELL",
+    "SMCI",
+    "HPE",
+    "VRT",
+    "ANET",
+    "ETN",
+    "CEG",
+    "GEV",
+    "PWR",
+    "AVGO",
+    "META",
+    "GOOGL",
+    "AMZN",
+    "INTC",
+    "QCOM",
+    "MRVL",
+    "ARM",
+    "ORCL",
+    "IBM",
+    "NOW",
+    "CRM",
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "C",
+    "BRK.B",
+    "XOM",
+    "CVX",
+    "COP",
+    "SLB",
+    "OXY",
+    "LLY",
+    "UNH",
+    "JNJ",
+    "PFE",
+    "MRK",
+    "ABBV",
+    "NOC",
+    "RTX",
+    "LMT",
+    "GD",
+    "BA",
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "NKE",
+    "SBUX",
+    "DIS",
+    "DAL",
+    "UAL",
+    "FDX",
+    "UPS",
+    "UNP",
+    "NEE",
+    "DUK",
+    "SO",
+    "V",
+    "MA",
+    "PYPL",
+    "COIN",
+    "HOOD"
+  ],
+  "twelve_data": [
+    "SPY",
+    "QQQ",
+    "DIA",
+    "IWM",
+    "NVDA",
+    "AMD",
+    "MSFT",
+    "AAPL",
+    "TSLA",
+    "MU",
+    "DELL",
+    "BTC/USD",
+    "XAU/USD",
+    "XAG/USD",
+    "WTI/USD",
+    "BRENT/USD",
+    "EUR/USD",
+    "USD/JPY",
+    "USD/KRW"
+  ],
+  "kis_domestic_stocks": [
+    {
+      "symbol": "005930",
+      "name": "Samsung Electronics",
+      "file": "samsung-electronics.json"
+    },
+    {
+      "symbol": "000660",
+      "name": "SK hynix",
+      "file": "sk-hynix.json"
+    },
+    {
+      "symbol": "373220",
+      "name": "LG Energy Solution",
+      "file": "lg-energy-solution.json"
+    },
+    {
+      "symbol": "005380",
+      "name": "Hyundai Motor",
+      "file": "hyundai-motor.json"
+    },
+    {
+      "symbol": "000270",
+      "name": "Kia",
+      "file": "kia.json"
+    }
+  ]
+}

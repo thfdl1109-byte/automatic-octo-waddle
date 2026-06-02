@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+.codex-remote-attachments/
+
+data/raw/
+data/logs/*.log
+
+reports/latest.md

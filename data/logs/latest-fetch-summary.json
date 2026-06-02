@@ -1,0 +1,55 @@
+﻿{
+    "started_at":  "2026-06-02 22:48:25",
+    "ended_at":  "2026-06-02 22:48:41",
+    "range":  "2026-06-01..2026-06-02",
+    "providers":  "none",
+    "counts":  {
+                   "ok":  7,
+                   "err":  0,
+                   "skip":  0
+               },
+    "results":  [
+                    {
+                        "label":  "DERIVED:US_INTERESTING_STOCKS",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\us-interesting-stocks.json"
+                    },
+                    {
+                        "label":  "DERIVED:MACRO_SNAPSHOT",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\macro-snapshot.json"
+                    },
+                    {
+                        "label":  "DERIVED:NEWS_DIGEST",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\news-digest.json"
+                    },
+                    {
+                        "label":  "DERIVED:MARKET_BREADTH",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\market-breadth.json"
+                    },
+                    {
+                        "label":  "DERIVED:REPORT_INDEX",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\reports\\index.json"
+                    },
+                    {
+                        "label":  "DERIVED:DATA_QUALITY",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\data-quality.json"
+                    },
+                    {
+                        "label":  "DERIVED:REPORT_BRIEFING",
+                        "status":  "OK",
+                        "detail":  "",
+                        "file":  "C:\\Users\\user\\Documents\\금융 리포트\\data\\derived\\report-briefing.json"
+                    }
+                ]
+}

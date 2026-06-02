@@ -1,0 +1,439 @@
+﻿{
+    "generated_at":  "2026-06-02 22:48:41",
+    "quality":  {
+                    "status":  "good",
+                    "score":  100,
+                    "warnings":  [
+
+                                 ]
+                },
+    "suggested_themes":  [
+                             "AI / semiconductor leadership or volatility",
+                             "rates / inflation watch"
+                         ],
+    "breadth_signals":  [
+                            "semiconductor leadership"
+                        ],
+    "top_stocks":  [
+                       {
+                           "ticker":  "MRVL",
+                           "sector":  "semiconductors",
+                           "score":  97,
+                           "price":  261.64,
+                           "change_pct":  19.2362,
+                           "volume":  50000000,
+                           "dollar_volume":  13082000000,
+                           "news_count":  0,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist"
+                                       ]
+                       },
+                       {
+                           "ticker":  "AVGO",
+                           "sector":  "semiconductors",
+                           "score":  92.8,
+                           "price":  484.19,
+                           "change_pct":  5.2656,
+                           "volume":  50000000,
+                           "dollar_volume":  24209500000,
+                           "news_count":  85,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "GOOGL",
+                           "sector":  "mega-cap tech",
+                           "score":  88.05,
+                           "price":  362.51,
+                           "change_pct":  -3.6825,
+                           "volume":  50000000,
+                           "dollar_volume":  18125500000,
+                           "news_count":  147,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "MSFT",
+                           "sector":  "software",
+                           "score":  83.14,
+                           "price":  451.1,
+                           "change_pct":  -2.0455,
+                           "volume":  50000000,
+                           "dollar_volume":  22555000000,
+                           "news_count":  207,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "AMZN",
+                           "sector":  "mega-cap tech",
+                           "score":  82.57,
+                           "price":  256.41,
+                           "change_pct":  -1.8564,
+                           "volume":  50000000,
+                           "dollar_volume":  12820500000,
+                           "news_count":  148,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "NVDA",
+                           "sector":  "semiconductors",
+                           "score":  82.41,
+                           "price":  226.91,
+                           "change_pct":  1.1366,
+                           "volume":  208004171,
+                           "dollar_volume":  46667815805.56,
+                           "news_count":  249,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "AlphaVantage:active",
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "high volume",
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "AAPL",
+                           "sector":  "mega-cap tech",
+                           "score":  79.67,
+                           "price":  309.04,
+                           "change_pct":  0.8913,
+                           "volume":  50000000,
+                           "dollar_volume":  15452000000,
+                           "news_count":  93,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "DELL",
+                           "sector":  "AI infrastructure",
+                           "score":  77.87,
+                           "price":  467.31,
+                           "change_pct":  0.2897,
+                           "volume":  50000000,
+                           "dollar_volume":  23365500000,
+                           "news_count":  173,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "TSLA",
+                           "sector":  "consumer growth",
+                           "score":  77.23,
+                           "price":  416.2,
+                           "change_pct":  0.0769,
+                           "volume":  50000000,
+                           "dollar_volume":  20810000000,
+                           "news_count":  113,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist",
+                                           "news coverage"
+                                       ]
+                       },
+                       {
+                           "ticker":  "NOW",
+                           "sector":  "software",
+                           "score":  72.46,
+                           "price":  130.79,
+                           "change_pct":  -3.7318,
+                           "volume":  50000000,
+                           "dollar_volume":  6539500000,
+                           "news_count":  0,
+                           "watchlist":  true,
+                           "sources":  [
+                                           "Finnhub:watchlist"
+                                       ],
+                           "reasons":  [
+                                           "core watchlist"
+                                       ]
+                       }
+                   ],
+    "macro_items":  [
+                        {
+                            "key":  "us_2y",
+                            "label":  "US 2Y yield",
+                            "kind":  "yield",
+                            "date":  "2026-05-29",
+                            "age_days":  4,
+                            "stale":  false,
+                            "value":  3.98,
+                            "change":  -0.01,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "us_10y",
+                            "label":  "US 10Y yield",
+                            "kind":  "yield",
+                            "date":  "2026-05-29",
+                            "age_days":  4,
+                            "stale":  false,
+                            "value":  4.45,
+                            "change":  0,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "us_30y",
+                            "label":  "US 30Y yield",
+                            "kind":  "yield",
+                            "date":  "2026-05-29",
+                            "age_days":  4,
+                            "stale":  false,
+                            "value":  4.99,
+                            "change":  0.01,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "wti_fred",
+                            "label":  "WTI crude",
+                            "kind":  "commodity",
+                            "date":  "2026-05-26",
+                            "age_days":  7,
+                            "stale":  false,
+                            "value":  97.63,
+                            "change":  -2.72,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "dollar_fred",
+                            "label":  "Trade-weighted dollar",
+                            "kind":  "fx",
+                            "date":  "2026-05-29",
+                            "age_days":  4,
+                            "stale":  false,
+                            "value":  118.8783,
+                            "change":  -0.1535,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "hy_spread",
+                            "label":  "High-yield spread",
+                            "kind":  "credit",
+                            "date":  "2026-06-01",
+                            "age_days":  1,
+                            "stale":  false,
+                            "value":  2.72,
+                            "change":  -0.02,
+                            "change_pct":  null,
+                            "source":  "FRED"
+                        },
+                        {
+                            "key":  "dxy",
+                            "label":  "DXY",
+                            "kind":  "fx",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  99.087,
+                            "change":  null,
+                            "change_pct":  -0.1139,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "gold",
+                            "label":  "Gold",
+                            "kind":  "commodity",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  4542.7002,
+                            "change":  null,
+                            "change_pct":  1.5083,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "wti_futures",
+                            "label":  "WTI futures",
+                            "kind":  "commodity",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  91.95,
+                            "change":  null,
+                            "change_pct":  -0.2279,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "brent_futures",
+                            "label":  "Brent futures",
+                            "kind":  "commodity",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  94.69,
+                            "change":  null,
+                            "change_pct":  -0.3053,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "bitcoin",
+                            "label":  "Bitcoin",
+                            "kind":  "crypto",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  68827.0703,
+                            "change":  null,
+                            "change_pct":  -3.4951,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "usd_jpy",
+                            "label":  "USD/JPY",
+                            "kind":  "fx",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  159.782,
+                            "change":  null,
+                            "change_pct":  0.2692,
+                            "source":  "Yahoo"
+                        },
+                        {
+                            "key":  "usd_krw",
+                            "label":  "USD/KRW",
+                            "kind":  "fx",
+                            "date":  "2026-06-02",
+                            "age_days":  0,
+                            "stale":  false,
+                            "value":  1517.5601,
+                            "change":  null,
+                            "change_pct":  0.7114,
+                            "source":  "Yahoo"
+                        }
+                    ],
+    "top_news":  [
+                     {
+                         "score":  69,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "Gold rises as lower oil eases inflation, rate-hike fears - Reuters",
+                         "summary":  "Gold rises as lower oil eases inflation, rate-hike fears  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVVWNVNodVFSeXdsWW9GZ1o4WnJKc0pqbkN4NGhBVkVOV3RqcXRQMDJfZHVHUUk4YWpGZFB5TGhCNmxBdXE0U20tRW0zMlNjYlBuenpIcVdoa0txQjNzb3lCNnZhWGpfOWZPUTM0WFBMVTdxM0dRUWVacnJzNjJsc3Fhb3hNWXZRLVUySkg2eHU2U3VEVG9zY3BLQXFva1lFeVhqLVhHQnFJZUhO?oc=5",
+                         "published_at":  "1780362720"
+                     },
+                     {
+                         "score":  69,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "AI frenzy stokes inflation heat too - Reuters",
+                         "summary":  "AI frenzy stokes inflation heat too  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdXFvbjBVdll5VmplS3JBTTdQV2lvVDd2SXhxdlNwcWliZkthelpncTJLLVRNQ29hN2NuamU5RFdKSG41X3dDWVB0NXBSSXY4V2JxNkxPcVJteVptODFUbE4wel81Vi1qSlJLaDh0clpkeUpzYlFBdWIwZFpZV3V2R1h1aGdodXFtSEl4RVphV0hQMS1hb2VVVXFVSW55dDRCUmJpRnRPRQ?oc=5",
+                         "published_at":  "1780380780"
+                     },
+                     {
+                         "score":  69,
+                         "event":  "Oil / geopolitics",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "Dollar in tight range as traders eye Middle East, US data - Reuters",
+                         "summary":  "Dollar in tight range as traders eye Middle East, US data  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzZFYldJT0Y0WEZISVdrQzkyS2xOSEdaUm1QMXZjYXYzbmNBekpoMmgxcXJIUTBZQ05nTW1MRlVwa0ZzX3FZZk83di1qTTRuek0ydWFNS05OODBaX1RpdHk1eHRDa0Z1SHlrTjRMT1RJcVgyTzR6UldVV2pZLVVwaFJkcUpBOGxZMlo2TFBwQ0theEtkUmxRdUJ1UnROSzVsWS1WSXRwSlFrZzNV?oc=5",
+                         "published_at":  "1780361520"
+                     },
+                     {
+                         "score":  63,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Associated Press",
+                         "ticker":  "",
+                         "title":  "New inflation warning from bond market...",
+                         "summary":  "The world is getting more uptight about lending money to President Donald Trump’s government. The energy price spike triggered by the Iran war has seeped into the price of bonds that help fund the U.S. government. That\u0027s caused interest rates to climb in ways…",
+                         "url":  "https://apnews.com/article/trump-interest-rates-debt-deficit-8deb3ed0c013a9c43a58e857ad1d615d",
+                         "published_at":  "2026-06-01T12:01:49Z"
+                     },
+                     {
+                         "score":  61,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "South Korea inflation hits two-year high, imminent rate hike in play - Reuters",
+                         "summary":  "South Korea inflation hits two-year high, imminent rate hike in play  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnlYOTdwUGhWaW9KMGdIcFZEOEhyd2VabGJFdWQwSGE5UTdrTTRnSmtsVGY3amRBeVI2TXhJazd4QmhqbHROVUhtZzVsWUJwNzJ2V0Z2VVZsSkx0ZnBKMlpfdVB6R2JtTzY0d0xyZ3M2ak1GcVQ2NDAyYWxZc2ktUWZfaVoza0Y4bE44TXprdks4eF82a3NtUk1vdkRMbkZzSmJXeHRNQmNLbmM?oc=5",
+                         "published_at":  "1780355700"
+                     },
+                     {
+                         "score":  55,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "NVDA",
+                         "title":  "Marvell Shares Surge After Nvidia’s Jensen Huang Calls It the Next “Trillion-Dollar Company” (MRVL)",
+                         "summary":  "Marvell Technology (NASDAQ:MRVL) shares soared more than 22% in premarket trading on Tuesday after Nvidia Chief Executive Jensen Huang praised the semiconductor company and described it as the next “trillion-dollar company. ” The remarks added to growing investor enthusiasm surrounding Marvell’s role in the rapidly expanding artificial intelligence infrastructure market.",
+                         "url":  "https://finnhub.io/api/news?id=610dabcf7a8277a59a25a5c25c7490362f1444e5cae532df3474a3925ffeac5f",
+                         "published_at":  "1780398857"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "NVDA",
+                         "title":  "Arm Holdings CEO says US would have difficulty banning AI CPU chip exports to China",
+                         "summary":  "Arm Holdings CEO Rene Haas said on Tuesday that it would be difficult to block the ‌export to China of CPUs that are useful for AI because of ‌their widespread use and as it would be difficult to block only AI CPUs.  \"CPUs are kind of ​like oil relative to the application space,\" Haas said in an interview with Reuters.  Banning artificial intelligence CPUs would be nearly impossible because of the challenge of establishing specific performance thresholds and memory bandwidth limits as is possible with the ‌graphics processing units (GPUs) made by ⁠Nvidia, Haas said.",
+                         "url":  "https://finnhub.io/api/news?id=72f91437b8ca6f4807b4f97a1182b384553755b256015d0c3422772f5163b8ad",
+                         "published_at":  "1780393737"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "AMD",
+                         "title":  "Why Arm Stock Hit A Record High on Nvidia’s Chip Announcement",
+                         "summary":  "Nvidia  has roiled the semiconductor sector with the launch of a PC chip.  Nvidia late on Sunday unveiled its RTX Spark, which integrates Arm’s designs for a custom central-processing unit.  Arm shares soared 16% to $408.85 on Monday, notching a record closing high.",
+                         "url":  "https://finnhub.io/api/news?id=7305345c17241cde471f0fa9785dfc3ad45f5263f1beefe8e24ad17cf92c4df0",
+                         "published_at":  "1780346520"
+                     }
+                 ]
+}

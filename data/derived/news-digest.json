@@ -1,0 +1,205 @@
+﻿{
+    "generated_at":  "2026-06-02 22:48:34",
+    "selected":  [
+                     {
+                         "score":  69,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "Gold rises as lower oil eases inflation, rate-hike fears - Reuters",
+                         "summary":  "Gold rises as lower oil eases inflation, rate-hike fears  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVVWNVNodVFSeXdsWW9GZ1o4WnJKc0pqbkN4NGhBVkVOV3RqcXRQMDJfZHVHUUk4YWpGZFB5TGhCNmxBdXE0U20tRW0zMlNjYlBuenpIcVdoa0txQjNzb3lCNnZhWGpfOWZPUTM0WFBMVTdxM0dRUWVacnJzNjJsc3Fhb3hNWXZRLVUySkg2eHU2U3VEVG9zY3BLQXFva1lFeVhqLVhHQnFJZUhO?oc=5",
+                         "published_at":  "1780362720"
+                     },
+                     {
+                         "score":  69,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "AI frenzy stokes inflation heat too - Reuters",
+                         "summary":  "AI frenzy stokes inflation heat too  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdXFvbjBVdll5VmplS3JBTTdQV2lvVDd2SXhxdlNwcWliZkthelpncTJLLVRNQ29hN2NuamU5RFdKSG41X3dDWVB0NXBSSXY4V2JxNkxPcVJteVptODFUbE4wel81Vi1qSlJLaDh0clpkeUpzYlFBdWIwZFpZV3V2R1h1aGdodXFtSEl4RVphV0hQMS1hb2VVVXFVSW55dDRCUmJpRnRPRQ?oc=5",
+                         "published_at":  "1780380780"
+                     },
+                     {
+                         "score":  69,
+                         "event":  "Oil / geopolitics",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "Dollar in tight range as traders eye Middle East, US data - Reuters",
+                         "summary":  "Dollar in tight range as traders eye Middle East, US data  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzZFYldJT0Y0WEZISVdrQzkyS2xOSEdaUm1QMXZjYXYzbmNBekpoMmgxcXJIUTBZQ05nTW1MRlVwa0ZzX3FZZk83di1qTTRuek0ydWFNS05OODBaX1RpdHk1eHRDa0Z1SHlrTjRMT1RJcVgyTzR6UldVV2pZLVVwaFJkcUpBOGxZMlo2TFBwQ0theEtkUmxRdUJ1UnROSzVsWS1WSXRwSlFrZzNV?oc=5",
+                         "published_at":  "1780361520"
+                     },
+                     {
+                         "score":  63,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Associated Press",
+                         "ticker":  "",
+                         "title":  "New inflation warning from bond market...",
+                         "summary":  "The world is getting more uptight about lending money to President Donald Trump’s government. The energy price spike triggered by the Iran war has seeped into the price of bonds that help fund the U.S. government. That\u0027s caused interest rates to climb in ways…",
+                         "url":  "https://apnews.com/article/trump-interest-rates-debt-deficit-8deb3ed0c013a9c43a58e857ad1d615d",
+                         "published_at":  "2026-06-01T12:01:49Z"
+                     },
+                     {
+                         "score":  61,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "South Korea inflation hits two-year high, imminent rate hike in play - Reuters",
+                         "summary":  "South Korea inflation hits two-year high, imminent rate hike in play  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnlYOTdwUGhWaW9KMGdIcFZEOEhyd2VabGJFdWQwSGE5UTdrTTRnSmtsVGY3amRBeVI2TXhJazd4QmhqbHROVUhtZzVsWUJwNzJ2V0Z2VVZsSkx0ZnBKMlpfdVB6R2JtTzY0d0xyZ3M2ak1GcVQ2NDAyYWxZc2ktUWZfaVoza0Y4bE44TXprdks4eF82a3NtUk1vdkRMbkZzSmJXeHRNQmNLbmM?oc=5",
+                         "published_at":  "1780355700"
+                     },
+                     {
+                         "score":  55,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "NVDA",
+                         "title":  "Marvell Shares Surge After Nvidia’s Jensen Huang Calls It the Next “Trillion-Dollar Company” (MRVL)",
+                         "summary":  "Marvell Technology (NASDAQ:MRVL) shares soared more than 22% in premarket trading on Tuesday after Nvidia Chief Executive Jensen Huang praised the semiconductor company and described it as the next “trillion-dollar company. ” The remarks added to growing investor enthusiasm surrounding Marvell’s role in the rapidly expanding artificial intelligence infrastructure market.",
+                         "url":  "https://finnhub.io/api/news?id=610dabcf7a8277a59a25a5c25c7490362f1444e5cae532df3474a3925ffeac5f",
+                         "published_at":  "1780398857"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "NVDA",
+                         "title":  "Arm Holdings CEO says US would have difficulty banning AI CPU chip exports to China",
+                         "summary":  "Arm Holdings CEO Rene Haas said on Tuesday that it would be difficult to block the ‌export to China of CPUs that are useful for AI because of ‌their widespread use and as it would be difficult to block only AI CPUs.  \"CPUs are kind of ​like oil relative to the application space,\" Haas said in an interview with Reuters.  Banning artificial intelligence CPUs would be nearly impossible because of the challenge of establishing specific performance thresholds and memory bandwidth limits as is possible with the ‌graphics processing units (GPUs) made by ⁠Nvidia, Haas said.",
+                         "url":  "https://finnhub.io/api/news?id=72f91437b8ca6f4807b4f97a1182b384553755b256015d0c3422772f5163b8ad",
+                         "published_at":  "1780393737"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "AMD",
+                         "title":  "Why Arm Stock Hit A Record High on Nvidia’s Chip Announcement",
+                         "summary":  "Nvidia  has roiled the semiconductor sector with the launch of a PC chip.  Nvidia late on Sunday unveiled its RTX Spark, which integrates Arm’s designs for a custom central-processing unit.  Arm shares soared 16% to $408.85 on Monday, notching a record closing high.",
+                         "url":  "https://finnhub.io/api/news?id=7305345c17241cde471f0fa9785dfc3ad45f5263f1beefe8e24ad17cf92c4df0",
+                         "published_at":  "1780346520"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "AVGO",
+                         "title":  "3 Things Broadcom and Nvidia Investors Should Look for When Broadcom Reports Earnings on June 3",
+                         "summary":  "Broadcom\u0027s custom chips and AI networking are winning market share in data centers.",
+                         "url":  "https://finnhub.io/api/news?id=31ee513daeb04af3d5f0dbe0c74e2530971ded7c82ecb41081dc99dfc73e2397",
+                         "published_at":  "1780381200"
+                     },
+                     {
+                         "score":  47,
+                         "event":  "AI / semiconductors",
+                         "source":  "Yahoo",
+                         "ticker":  "AAPL",
+                         "title":  "TSMC executive drops blunt message on AI chip’s next frontier",
+                         "summary":  "Wall Street has spent years pricing AI chip stocks on one core assumption: raw computing power wins. More transistors, more speed, more performance. That was the race, and investors bid up names including Nvidia (NVDA), Taiwan Semiconductor Manufacturing Company (TSM), and Broadcom (AVGO) ...",
+                         "url":  "https://finnhub.io/api/news?id=a529cfbde4489d965648b197484e1491944c43d222501972382afe2fd1dcccb3",
+                         "published_at":  "1780362180"
+                     },
+                     {
+                         "score":  46,
+                         "event":  "Earnings / guidance",
+                         "source":  "Benzinga",
+                         "ticker":  "AVGO",
+                         "title":  "Earnings Volatility Watch: 10 Stocks Set For Big Moves This Week, From Nuclear Power To Whiskey Maker",
+                         "summary":  "Mega-caps like Broadcom and Palo Alto grab the headlines, but Benzinga Pro data shows the biggest implied moves this week sit in a smaller cohort — from a new nuclear stock to a whiskey maker.",
+                         "url":  "https://finnhub.io/api/news?id=ac18495ce3b862660cfad4b94b3565f2b0ac310b90b820ae9bc13c686f6adc27",
+                         "published_at":  "1780326907"
+                     },
+                     {
+                         "score":  44,
+                         "event":  "Other",
+                         "source":  "Benzinga",
+                         "ticker":  "DIA",
+                         "title":  "S\u0026P 500 Halts Gains As Oil Jumps 8% On Iran Ceasefire Standoff: Stock Market Today",
+                         "summary":  "Crude oil surged nearly 8% – its best day since April 2 – after US strikes on Iran and Tehran\u0026#39;s retaliation, stalling the S\u0026amp;P 500\u0026#39;s rally even as software stocks soared.",
+                         "url":  "https://finnhub.io/api/news?id=29ca93f3a6bbc46123a66e020c77b3c160b0350b40c9aeca102f5269e8e4a204",
+                         "published_at":  "1780319162"
+                     },
+                     {
+                         "score":  43,
+                         "event":  "Other",
+                         "source":  "CNBC",
+                         "ticker":  "",
+                         "title":  "Berkshire Hathaway deal, startups grapple with AI, the cost of the Iran war and more in Morning Squawk",
+                         "summary":  "Here are five key things investors need to know to start the trading day.",
+                         "url":  "https://www.cnbc.com/2026/06/01/5-things-to-know-before-the-market-opens.html",
+                         "published_at":  "2026-06-01T12:06:43Z"
+                     },
+                     {
+                         "score":  41,
+                         "event":  "Other",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "Wall St ends higher, boosted by tech gains, US-Iran peace hopes - Reuters",
+                         "summary":  "Wall St ends higher, boosted by tech gains, US-Iran peace hopes  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcUNQekF0VTVYU1pWSkxuYnE4cklIRTliQzVsN2NLUlItQ0Jvd1Q5My1lQlZJTUZMQmZpaWxDN1YtY3RGY1h0R1BIeHlrbm1qcFhpU1dxZjhfTmFwVERDd0VsOUFxTHRBZzNfNFdCYkFqVDE1ODVXVGNxaEpTdTd3SjlGZGMwRDdtUFBWQ3RtOVZoOGtGZmZWRGtnOUotbmxYejNobloxaGFqV1dSUWJRek5VYw?oc=5",
+                         "published_at":  "1780355966"
+                     },
+                     {
+                         "score":  41,
+                         "event":  "Other",
+                         "source":  "Reuters",
+                         "ticker":  "market",
+                         "title":  "At least 18 killed in heavy Russian attack on Ukrainian cities - Reuters",
+                         "summary":  "At least 18 killed in heavy Russian attack on Ukrainian cities  Reuters",
+                         "url":  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdzJpWFQ4UGVVSjFXNWtsSjBGRG1DdTVNRFg3bnVGTC1qSlRIazIwR19QdFVHRk5ySW1JaTd4bDF5X282cTdFaWhwdXh2Z2hER0hyN2Y2TE9vR1dwVk0zaC1sdUQweXlVelFBa3BrSkFzcXNoM0h1NUR3VFZWaXRPTkFUSk14c1BFVlNSUnEwcG1hVFF5Vndyd3FyTVRfN1NBQXU1T20xT0ljMmpJUnBtNVBJaGgwdnB3WjlXMTdSTQ?oc=5",
+                         "published_at":  "1780355880"
+                     },
+                     {
+                         "score":  39,
+                         "event":  "Oil / geopolitics",
+                         "source":  "Yahoo",
+                         "ticker":  "AMD",
+                         "title":  "Nvidia Boss Says Workers Should Be Paid ‘as Much as Possible’",
+                         "summary":  "(Bloomberg) -- Nvidia Corp. Chief Executive Officer Jensen Huang said he pays his workers as much as possible, weighing in on a growing global debate about how profits from the AI infrastructure boom should be shared.Most Read from BloombergRussia Finance Officials Tell Putin War Spending Is UnaffordableCanada Dips Into Technical Recession for First Time Since 2020Alphabet to Raise $80 Billion in Equity for AI SpendingUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedAndrew Left Foun",
+                         "url":  "https://finnhub.io/api/news?id=b29cd0fab79fea660aa4eea5dd7cbb9f3090a3125427daf1a1910ba9aae27e8d",
+                         "published_at":  "1780371196"
+                     },
+                     {
+                         "score":  36,
+                         "event":  "Other",
+                         "source":  "Benzinga",
+                         "ticker":  "QQQ",
+                         "title":  "SoftBank\u0027s Masayoshi Son Calls AI \u002750X Bigger\u0027 Than The Dot-Com Boom, Says Corrections Could Be The \u0027Best Investment Opportunity\u0027",
+                         "summary":  "SoftBank CEO Masayoshi Son says AI is 50x bigger than the dot-com boom and market corrections are buying opportunities.",
+                         "url":  "https://finnhub.io/api/news?id=f7d969f6ab602c18e5f97bc61119bb26f5ecb8b1d6e938983447818c39a26716",
+                         "published_at":  "1780306068"
+                     },
+                     {
+                         "score":  36,
+                         "event":  "Oil / geopolitics",
+                         "source":  "The Times of India",
+                         "ticker":  "",
+                         "title":  "Britain orders more missiles from Thales to shoot down drones",
+                         "summary":  "Britain has secured new contracts worth £36 million with Thales for hundreds of Lightweight Multirole missiles. These missiles, already utilized by UK forces to intercept drones in the Middle East, will bolster security for the UK and its partners. Deliveries…",
+                         "url":  "https://economictimes.indiatimes.com/news/defence/britain-orders-more-missiles-from-thales-to-shoot-down-drones/articleshow/131442458.cms",
+                         "published_at":  "2026-06-01T12:12:48Z"
+                     },
+                     {
+                         "score":  29,
+                         "event":  "Rates / Fed / inflation",
+                         "source":  "SeekingAlpha",
+                         "ticker":  "IWM",
+                         "title":  "What Stock Market Pessimists May Be Missing",
+                         "summary":  "Pessimists are out in force, arguing that an inflation spiral is here, rates will keep rising, and the US debt story is unraveling. Has the long-awaited moment for the permabear arrived?",
+                         "url":  "https://finnhub.io/api/news?id=e20b5f3d57b7444b1dee791bb27932ff8f7b8ebd78bea57637f301a69f8a7f99",
+                         "published_at":  "1780332000"
+                     },
+                     {
+                         "score":  29,
+                         "event":  "M\u0026A / corporate action",
+                         "source":  "CNBC",
+                         "ticker":  "market",
+                         "title":  "FedEx Freight CEO says the spinoff will help the company \u0027leapfrog\u0027 competitors",
+                         "summary":  "FedEx Freight CEO John Smith said the company\u0027s separation from FedEx will allow it to invest more aggressively in growth initiatives.",
+                         "url":  "https://www.cnbc.com/2026/06/01/fedex-freight-ceo-says-the-spinoff-will-help-the-company-leapfrog-competitors.html",
+                         "published_at":  "1780354132"
+                     }
+                 ]
+}
