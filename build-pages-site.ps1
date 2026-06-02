@@ -233,6 +233,4 @@ $latestBlock
 $homeHtml = New-PageHtml -Title "Daily Global Finance Report" -Subtitle "Automated investment report archive" -BodyHtml $indexBody
 Set-Content -Path (Join-Path $OutDir "index.html") -Value $homeHtml -Encoding UTF8
 
-Copy-Item -LiteralPath $ReportsIndexPath -Destination (Join-Path $OutDir "reports-index.json") -Force
-
 Write-Host "Wrote GitHub Pages site to $OutDir"

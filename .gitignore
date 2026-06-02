@@ -8,5 +8,8 @@
 
 data/raw/
 data/logs/*.log
+data/logs/*.json
+data/derived/
 
+reports/
 reports/latest.md
