@@ -167,7 +167,10 @@ if (-not $index -or -not $index.reports) {
 }
 
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
-New-Item -ItemType Directory -Force -Path (Join-Path $OutDir "reports") | Out-Null
+$reportsOutDir = Join-Path $OutDir "reports"
+New-Item -ItemType Directory -Force -Path $reportsOutDir | Out-Null
+Get-ChildItem -Path $reportsOutDir -Filter "*.html" -File -ErrorAction SilentlyContinue |
+  Remove-Item -Force
 Set-Content -Path (Join-Path $OutDir ".nojekyll") -Value "" -Encoding UTF8
 
 $reportLinks = New-Object System.Collections.Generic.List[object]
@@ -176,7 +179,7 @@ foreach ($report in (@($index.reports) | Select-Object -First $ArchiveLimit)) {
   $md = Get-Content -Raw -Encoding UTF8 $report.path
   $body = Convert-MarkdownToHtml $md
   $safeName = "$($report.date)-daily-global-finance-report.html"
-  $outPath = Join-Path (Join-Path $OutDir "reports") $safeName
+  $outPath = Join-Path $reportsOutDir $safeName
   $page = New-PageHtml -Title "Daily Report $($report.date)" -Subtitle $report.updated_at -BodyHtml $body
   Set-Content -Path $outPath -Value $page -Encoding UTF8
   $reportLinks.Add([pscustomobject]@{
@@ -189,7 +192,7 @@ foreach ($report in (@($index.reports) | Select-Object -First $ArchiveLimit)) {
 
 $latest = $reportLinks | Select-Object -First 1
 if ($latest) {
-  Copy-Item -LiteralPath (Join-Path (Join-Path $OutDir "reports") "$($latest.date)-daily-global-finance-report.html") -Destination (Join-Path $OutDir "latest.html") -Force
+  Copy-Item -LiteralPath (Join-Path $reportsOutDir "$($latest.date)-daily-global-finance-report.html") -Destination (Join-Path $OutDir "latest.html") -Force
 }
 
 $cards = New-Object System.Collections.Generic.List[string]
