@@ -1,5 +1,5 @@
 ﻿{
-    "generated_at":  "2026-06-03 00:39:04",
+    "generated_at":  "2026-06-03 00:45:57",
     "latest":  {
                    "date":  "2026-06-02",
                    "name":  "2026-06-02-daily-global-finance-report.md",
@@ -14,6 +14,13 @@
                         "path":  "C:\\Users\\user\\Documents\\금융 리포트\\daily-reports\\2026-06-02-daily-global-finance-report.md",
                         "updated_at":  "2026-06-03 00:07:58",
                         "bytes":  8810
+                    },
+                    {
+                        "date":  "2026-06-01",
+                        "name":  "2026-06-01-daily-global-finance-report.md",
+                        "path":  "C:\\Users\\user\\Documents\\금융 리포트\\daily-reports\\2026-06-01-daily-global-finance-report.md",
+                        "updated_at":  "2026-06-03 00:45:27",
+                        "bytes":  7499
                     }
                 ],
     "derived":  [
