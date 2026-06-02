@@ -13,10 +13,10 @@ Set-Location $root
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
 $candidates = @()
-$searchDirs = @(
-  (Join-Path $root "daily-reports-2026-01-01_2026-06-02"),
-  $root
-) | Where-Object { Test-Path $_ }
+$searchDirs = @($root)
+$searchDirs += Get-ChildItem -Path $root -Directory -Filter "daily-reports*" -ErrorAction SilentlyContinue |
+  Select-Object -ExpandProperty FullName
+$searchDirs = $searchDirs | Where-Object { Test-Path $_ } | Select-Object -Unique
 
 foreach ($dir in $searchDirs) {
   $candidates += Get-ChildItem -Path $dir -Filter $LatestPattern -File -ErrorAction SilentlyContinue
