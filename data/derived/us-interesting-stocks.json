@@ -1,5 +1,5 @@
 ﻿{
-    "generated_at":  "2026-06-02 22:48:28",
+    "generated_at":  "2026-06-03 00:04:00",
     "rules":  {
                   "min_price":  1,
                   "min_dollar_volume":  50000000,
@@ -7,123 +7,32 @@
               },
     "selected":  [
                      {
+                         "ticker":  "HPE",
+                         "sector":  "AI infrastructure",
+                         "score":  111.34,
+                         "price":  59.21,
+                         "change_pct":  25.9787,
+                         "volume":  115597825,
+                         "dollar_volume":  6844547200.17,
+                         "news_count":  111,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
+                                     ]
+                     },
+                     {
                          "ticker":  "MRVL",
                          "sector":  "semiconductors",
-                         "score":  97,
-                         "price":  261.64,
-                         "change_pct":  19.2362,
+                         "score":  108.2,
+                         "price":  275.5,
+                         "change_pct":  25.5526,
                          "volume":  50000000,
-                         "dollar_volume":  13082000000,
-                         "news_count":  0,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "core watchlist"
-                                     ]
-                     },
-                     {
-                         "ticker":  "AVGO",
-                         "sector":  "semiconductors",
-                         "score":  92.8,
-                         "price":  484.19,
-                         "change_pct":  5.2656,
-                         "volume":  50000000,
-                         "dollar_volume":  24209500000,
-                         "news_count":  85,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "core watchlist",
-                                         "news coverage"
-                                     ]
-                     },
-                     {
-                         "ticker":  "GOOGL",
-                         "sector":  "mega-cap tech",
-                         "score":  88.05,
-                         "price":  362.51,
-                         "change_pct":  -3.6825,
-                         "volume":  50000000,
-                         "dollar_volume":  18125500000,
-                         "news_count":  147,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "core watchlist",
-                                         "news coverage"
-                                     ]
-                     },
-                     {
-                         "ticker":  "MSFT",
-                         "sector":  "software",
-                         "score":  83.14,
-                         "price":  451.1,
-                         "change_pct":  -2.0455,
-                         "volume":  50000000,
-                         "dollar_volume":  22555000000,
-                         "news_count":  207,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "core watchlist",
-                                         "news coverage"
-                                     ]
-                     },
-                     {
-                         "ticker":  "AMZN",
-                         "sector":  "mega-cap tech",
-                         "score":  82.57,
-                         "price":  256.41,
-                         "change_pct":  -1.8564,
-                         "volume":  50000000,
-                         "dollar_volume":  12820500000,
-                         "news_count":  148,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "core watchlist",
-                                         "news coverage"
-                                     ]
-                     },
-                     {
-                         "ticker":  "NVDA",
-                         "sector":  "semiconductors",
-                         "score":  82.41,
-                         "price":  226.91,
-                         "change_pct":  1.1366,
-                         "volume":  208004171,
-                         "dollar_volume":  46667815805.56,
-                         "news_count":  249,
-                         "watchlist":  true,
-                         "sources":  [
-                                         "AlphaVantage:active",
-                                         "Finnhub:watchlist"
-                                     ],
-                         "reasons":  [
-                                         "high volume",
-                                         "core watchlist",
-                                         "news coverage"
-                                     ]
-                     },
-                     {
-                         "ticker":  "AAPL",
-                         "sector":  "mega-cap tech",
-                         "score":  79.67,
-                         "price":  309.04,
-                         "change_pct":  0.8913,
-                         "volume":  50000000,
-                         "dollar_volume":  15452000000,
-                         "news_count":  93,
+                         "dollar_volume":  13775000000,
+                         "news_count":  56,
                          "watchlist":  true,
                          "sources":  [
                                          "Finnhub:watchlist"
@@ -136,12 +45,12 @@
                      {
                          "ticker":  "DELL",
                          "sector":  "AI infrastructure",
-                         "score":  77.87,
-                         "price":  467.31,
-                         "change_pct":  0.2897,
-                         "volume":  50000000,
-                         "dollar_volume":  23365500000,
-                         "news_count":  173,
+                         "score":  90.99,
+                         "price":  444.02,
+                         "change_pct":  -4.7086,
+                         "volume":  20849203,
+                         "dollar_volume":  9257462969.16,
+                         "news_count":  179,
                          "watchlist":  true,
                          "sources":  [
                                          "Finnhub:watchlist"
@@ -152,14 +61,50 @@
                                      ]
                      },
                      {
-                         "ticker":  "TSLA",
-                         "sector":  "consumer growth",
-                         "score":  77.23,
-                         "price":  416.2,
-                         "change_pct":  0.0769,
+                         "ticker":  "AVGO",
+                         "sector":  "semiconductors",
+                         "score":  90.04,
+                         "price":  479.97,
+                         "change_pct":  4.3481,
+                         "volume":  30585994,
+                         "dollar_volume":  14680359325.77,
+                         "news_count":  95,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
+                                     ]
+                     },
+                     {
+                         "ticker":  "MSFT",
+                         "sector":  "software",
+                         "score":  87.72,
+                         "price":  444.07,
+                         "change_pct":  -3.572,
+                         "volume":  53628910,
+                         "dollar_volume":  23814990071.49,
+                         "news_count":  221,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
+                                     ]
+                     },
+                     {
+                         "ticker":  "QCOM",
+                         "sector":  "semiconductors",
+                         "score":  85.21,
+                         "price":  238.92,
+                         "change_pct":  4.3364,
                          "volume":  50000000,
-                         "dollar_volume":  20810000000,
-                         "news_count":  113,
+                         "dollar_volume":  11946000000,
+                         "news_count":  51,
                          "watchlist":  true,
                          "sources":  [
                                          "Finnhub:watchlist"
@@ -172,11 +117,11 @@
                      {
                          "ticker":  "NOW",
                          "sector":  "software",
-                         "score":  72.46,
-                         "price":  130.79,
-                         "change_pct":  -3.7318,
+                         "score":  83.23,
+                         "price":  125.88,
+                         "change_pct":  -7.3458,
                          "volume":  50000000,
-                         "dollar_volume":  6539500000,
+                         "dollar_volume":  6294000000,
                          "news_count":  0,
                          "watchlist":  true,
                          "sources":  [
@@ -184,6 +129,60 @@
                                      ],
                          "reasons":  [
                                          "core watchlist"
+                                     ]
+                     },
+                     {
+                         "ticker":  "TSLA",
+                         "sector":  "consumer growth",
+                         "score":  81.67,
+                         "price":  422.35,
+                         "change_pct":  1.5557,
+                         "volume":  44937852,
+                         "dollar_volume":  18979501871.72,
+                         "news_count":  119,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
+                                     ]
+                     },
+                     {
+                         "ticker":  "ORCL",
+                         "sector":  "software",
+                         "score":  81.63,
+                         "price":  240.35,
+                         "change_pct":  -3.1433,
+                         "volume":  50000000,
+                         "dollar_volume":  12017500000,
+                         "news_count":  51,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
+                                     ]
+                     },
+                     {
+                         "ticker":  "AAPL",
+                         "sector":  "mega-cap tech",
+                         "score":  81.18,
+                         "price":  310.58,
+                         "change_pct":  1.394,
+                         "volume":  48849934,
+                         "dollar_volume":  15171812406.48,
+                         "news_count":  100,
+                         "watchlist":  true,
+                         "sources":  [
+                                         "Finnhub:watchlist"
+                                     ],
+                         "reasons":  [
+                                         "core watchlist",
+                                         "news coverage"
                                      ]
                      }
                  ]

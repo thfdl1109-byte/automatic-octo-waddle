@@ -1,8 +1,8 @@
 ﻿{
-    "generated_at":  "2026-06-02 22:48:30",
+    "generated_at":  "2026-06-03 00:04:02",
     "counts":  {
                    "total":  13,
-                   "stale":  0
+                   "stale":  1
                },
     "items":  [
                   {
@@ -10,7 +10,7 @@
                       "label":  "US 2Y yield",
                       "kind":  "yield",
                       "date":  "2026-05-29",
-                      "age_days":  4,
+                      "age_days":  5,
                       "stale":  false,
                       "value":  3.98,
                       "change":  -0.01,
@@ -22,7 +22,7 @@
                       "label":  "US 10Y yield",
                       "kind":  "yield",
                       "date":  "2026-05-29",
-                      "age_days":  4,
+                      "age_days":  5,
                       "stale":  false,
                       "value":  4.45,
                       "change":  0,
@@ -34,7 +34,7 @@
                       "label":  "US 30Y yield",
                       "kind":  "yield",
                       "date":  "2026-05-29",
-                      "age_days":  4,
+                      "age_days":  5,
                       "stale":  false,
                       "value":  4.99,
                       "change":  0.01,
@@ -46,8 +46,8 @@
                       "label":  "WTI crude",
                       "kind":  "commodity",
                       "date":  "2026-05-26",
-                      "age_days":  7,
-                      "stale":  false,
+                      "age_days":  8,
+                      "stale":  true,
                       "value":  97.63,
                       "change":  -2.72,
                       "change_pct":  null,
@@ -58,7 +58,7 @@
                       "label":  "Trade-weighted dollar",
                       "kind":  "fx",
                       "date":  "2026-05-29",
-                      "age_days":  4,
+                      "age_days":  5,
                       "stale":  false,
                       "value":  118.8783,
                       "change":  -0.1535,
@@ -70,7 +70,7 @@
                       "label":  "High-yield spread",
                       "kind":  "credit",
                       "date":  "2026-06-01",
-                      "age_days":  1,
+                      "age_days":  2,
                       "stale":  false,
                       "value":  2.72,
                       "change":  -0.02,
@@ -82,11 +82,11 @@
                       "label":  "DXY",
                       "kind":  "fx",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  99.087,
+                      "value":  99.1,
                       "change":  null,
-                      "change_pct":  -0.1139,
+                      "change_pct":  -0.1008,
                       "source":  "Yahoo"
                   },
                   {
@@ -94,11 +94,11 @@
                       "label":  "Gold",
                       "kind":  "commodity",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  4542.7002,
+                      "value":  4535.1001,
                       "change":  null,
-                      "change_pct":  1.5083,
+                      "change_pct":  1.3385,
                       "source":  "Yahoo"
                   },
                   {
@@ -106,11 +106,11 @@
                       "label":  "WTI futures",
                       "kind":  "commodity",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  91.95,
+                      "value":  91.81,
                       "change":  null,
-                      "change_pct":  -0.2279,
+                      "change_pct":  -0.3798,
                       "source":  "Yahoo"
                   },
                   {
@@ -118,11 +118,11 @@
                       "label":  "Brent futures",
                       "kind":  "commodity",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  94.69,
+                      "value":  94.77,
                       "change":  null,
-                      "change_pct":  -0.3053,
+                      "change_pct":  -0.2211,
                       "source":  "Yahoo"
                   },
                   {
@@ -130,11 +130,11 @@
                       "label":  "Bitcoin",
                       "kind":  "crypto",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  68827.0703,
+                      "value":  67961.8125,
                       "change":  null,
-                      "change_pct":  -3.4951,
+                      "change_pct":  -4.7083,
                       "source":  "Yahoo"
                   },
                   {
@@ -142,11 +142,11 @@
                       "label":  "USD/JPY",
                       "kind":  "fx",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  159.782,
+                      "value":  159.841,
                       "change":  null,
-                      "change_pct":  0.2692,
+                      "change_pct":  0.3062,
                       "source":  "Yahoo"
                   },
                   {
@@ -154,11 +154,11 @@
                       "label":  "USD/KRW",
                       "kind":  "fx",
                       "date":  "2026-06-02",
-                      "age_days":  0,
+                      "age_days":  1,
                       "stale":  false,
-                      "value":  1517.5601,
+                      "value":  1516.48,
                       "change":  null,
-                      "change_pct":  0.7114,
+                      "change_pct":  0.6398,
                       "source":  "Yahoo"
                   }
               ]

@@ -1,29 +1,29 @@
 ﻿# Report Briefing
 
-Generated at: 2026-06-02 22:48:41
-Quality: good / 100
+Generated at: 2026-06-03 00:04:10
+Quality: good / 90
 
 Suggested themes: AI / semiconductor leadership or volatility, rates / inflation watch
 Breadth signals: semiconductor leadership
 
 ## Top Stocks
-- MRVL [semiconductors]: 19.2362% score=97
-- AVGO [semiconductors]: 5.2656% score=92.8
-- GOOGL [mega-cap tech]: -3.6825% score=88.05
-- MSFT [software]: -2.0455% score=83.14
-- AMZN [mega-cap tech]: -1.8564% score=82.57
-- NVDA [semiconductors]: 1.1366% score=82.41
-- AAPL [mega-cap tech]: 0.8913% score=79.67
-- DELL [AI infrastructure]: 0.2897% score=77.87
-- TSLA [consumer growth]: 0.0769% score=77.23
-- NOW [software]: -3.7318% score=72.46
+- HPE [AI infrastructure]: 25.9787% score=111.34
+- MRVL [semiconductors]: 25.5526% score=108.2
+- DELL [AI infrastructure]: -4.7086% score=90.99
+- AVGO [semiconductors]: 4.3481% score=90.04
+- MSFT [software]: -3.572% score=87.72
+- QCOM [semiconductors]: 4.3364% score=85.21
+- NOW [software]: -7.3458% score=83.23
+- TSLA [consumer growth]: 1.5557% score=81.67
+- ORCL [software]: -3.1433% score=81.63
+- AAPL [mega-cap tech]: 1.394% score=81.18
 
 ## Top News
-- [Rates / Fed / inflation] Gold rises as lower oil eases inflation, rate-hike fears - Reuters
 - [Rates / Fed / inflation] AI frenzy stokes inflation heat too - Reuters
+- [Rates / Fed / inflation] Gold climbs as lower oil eases inflation, rate-hike fears - Reuters
 - [Oil / geopolitics] Dollar in tight range as traders eye Middle East, US data - Reuters
-- [Rates / Fed / inflation] New inflation warning from bond market...
+- [Earnings / guidance] Like Dell, now HPE surges on a massive guidance hike. Yes, business is that good
+- [Other] Jim Cramer's top 10 things to watch in the stock market Tuesday
+- [Oil / geopolitics] Oil products shipments exit Hormuz, LNG tanker loads at UAE - Reuters
 - [Rates / Fed / inflation] South Korea inflation hits two-year high, imminent rate hike in play - Reuters
-- [AI / semiconductors] Marvell Shares Surge After Nvidia’s Jensen Huang Calls It the Next “Trillion-Dollar Company” (MRVL)
-- [AI / semiconductors] Arm Holdings CEO says US would have difficulty banning AI CPU chip exports to China
-- [AI / semiconductors] Why Arm Stock Hit A Record High on Nvidia’s Chip Announcement
+- [Oil / geopolitics] Stock Market Today, June 1: Markets Flat as Oil Spike Offsets New Nvidia Chip

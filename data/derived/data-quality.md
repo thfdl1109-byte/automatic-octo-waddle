@@ -1,9 +1,9 @@
 ﻿# Data Quality
 
-Generated at: 2026-06-02 22:48:39
+Generated at: 2026-06-03 00:04:09
 Status: good
-Score: 100
+Score: 90
 
 | Level | Code | Message |
 | --- | --- | --- |
-| ok | none | No quality warnings. |
+| medium | stale_macro_items | 1 macro items are stale. |

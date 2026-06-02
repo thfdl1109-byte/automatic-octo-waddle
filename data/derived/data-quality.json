@@ -1,8 +1,12 @@
 ﻿{
-    "generated_at":  "2026-06-02 22:48:39",
-    "score":  100,
+    "generated_at":  "2026-06-03 00:04:09",
+    "score":  90,
     "status":  "good",
     "warnings":  [
-
+                     {
+                         "level":  "medium",
+                         "code":  "stale_macro_items",
+                         "message":  "1 macro items are stale."
+                     }
                  ]
 }

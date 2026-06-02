@@ -1,5 +1,5 @@
 ﻿{
-    "generated_at":  "2026-06-02 22:48:36",
+    "generated_at":  "2026-06-03 00:04:06",
     "available_quotes":  12,
     "signals":  [
                     "semiconductor leadership"
@@ -9,89 +9,89 @@
                          "name":  "Equal weight vs cap weight",
                          "a":  "RSP",
                          "b":  "SPY",
-                         "a_change_pct":  0.1243,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.2495
+                         "a_change_pct":  0.2581,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  0.1118
                      },
                      {
                          "name":  "Small caps vs S\u0026P 500",
                          "a":  "IWM",
                          "b":  "SPY",
-                         "a_change_pct":  0.2768,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.402
+                         "a_change_pct":  0.8928,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  0.7465
                      },
                      {
                          "name":  "Nasdaq 100 vs S\u0026P 500",
                          "a":  "QQQ",
                          "b":  "SPY",
-                         "a_change_pct":  -0.1723,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  -0.0471
+                         "a_change_pct":  0.2289,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  0.0826
                      },
                      {
                          "name":  "Semiconductors vs S\u0026P 500",
                          "a":  "SMH",
                          "b":  "SPY",
-                         "a_change_pct":  1.4659,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  1.5911
+                         "a_change_pct":  3.0338,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  2.8875
                      },
                      {
                          "name":  "Financials vs S\u0026P 500",
                          "a":  "XLF",
                          "b":  "SPY",
-                         "a_change_pct":  -0.1944,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  -0.0692
+                         "a_change_pct":  -0.0194,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  -0.1657
                      },
                      {
                          "name":  "Energy vs S\u0026P 500",
                          "a":  "XLE",
                          "b":  "SPY",
-                         "a_change_pct":  0.3665,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.4917
+                         "a_change_pct":  0.4712,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  0.3249
                      },
                      {
                          "name":  "Healthcare vs S\u0026P 500",
                          "a":  "XLV",
                          "b":  "SPY",
-                         "a_change_pct":  -0.6291,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  -0.5039
+                         "a_change_pct":  -0.8185,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  -0.9648
                      },
                      {
                          "name":  "Consumer discretionary vs S\u0026P 500",
                          "a":  "XLY",
                          "b":  "SPY",
-                         "a_change_pct":  -0.7953,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  -0.6701
+                         "a_change_pct":  -0.1438,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  -0.2901
                      },
                      {
                          "name":  "Consumer staples vs S\u0026P 500",
                          "a":  "XLP",
                          "b":  "SPY",
-                         "a_change_pct":  0.1219,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.2471
+                         "a_change_pct":  -0.3901,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  -0.5364
                      },
                      {
                          "name":  "Industrials vs S\u0026P 500",
                          "a":  "XLI",
                          "b":  "SPY",
-                         "a_change_pct":  0.4118,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.537
+                         "a_change_pct":  1.0093,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  0.863
                      },
                      {
                          "name":  "Utilities vs S\u0026P 500",
                          "a":  "XLU",
                          "b":  "SPY",
-                         "a_change_pct":  0.7889,
-                         "b_change_pct":  -0.1252,
-                         "relative_pct":  0.9141
+                         "a_change_pct":  1.2529,
+                         "b_change_pct":  0.1463,
+                         "relative_pct":  1.1066
                      }
                  ]
 }
