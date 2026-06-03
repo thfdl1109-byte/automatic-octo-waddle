@@ -5,10 +5,13 @@ param(
   [string[]]$Providers = @("fred", "yahoo", "stooq", "polygon", "finnhub", "alphavantage", "newsapi"),
   [int]$RequestTimeoutSec = 20,
   [int]$RateLimitDelaySec = 13,
+  [int]$FredDelaySec = 1,
+  [int]$PolygonDelaySec = 13,
+  [int]$TwelveDataDelaySec = 13,
   [int]$FinnhubDelayMs = 1100,
   [int]$MaxFinnhubQuoteTickers = 55,
   [int]$MaxFinnhubNewsTickers = 20,
-  [int]$MaxPolygonDailyTickers = 20,
+  [int]$MaxPolygonDailyTickers = 5,
   [switch]$SkipDerived
 )
 
@@ -235,7 +238,7 @@ if (Has-Provider "fred") {
       $url = "https://api.stlouisfed.org/fred/series/observations?series_id=$($item.id)&api_key=$fredKey&file_type=json&observation_start=$StartDate&observation_end=$EndDate"
       $out = Join-Path $fredDir ($item.file -replace "\.csv$", ".json")
       Invoke-Download -Url $url -OutFile $out -Label "FRED_API:$($item.id)"
-      Start-Sleep -Seconds $RateLimitDelaySec
+      Start-Sleep -Seconds $FredDelaySec
     }
   } else {
     Write-Log "SKIP FRED_API missing FRED_API_KEY; using CSV fallback"
@@ -275,7 +278,7 @@ if (Has-Provider "polygon") {
       $groupedUrl = "https://api.polygon.io/v2/aggs/grouped/locale/us/market/stocks/$isoEnd" +
                     "?adjusted=true&include_otc=false&apiKey=$polygonKey"
       Invoke-Download -Url $groupedUrl -OutFile (Join-Path $polygonDir "us-stocks-grouped-$isoEnd.json") -Label "POLYGON:US_GROUPED:$isoEnd"
-      Start-Sleep -Seconds $RateLimitDelaySec
+      Start-Sleep -Seconds $PolygonDelaySec
     } else {
       Write-Log "SKIP POLYGON:US_GROUPED disabled; set POLYGON_ENABLE_GROUPED=true to enable"
       Add-FetchResult -Label "POLYGON:US_GROUPED" -Status "SKIP" -Detail "disabled by default"
@@ -286,7 +289,7 @@ if (Has-Provider "polygon") {
       $url = "https://api.polygon.io/v2/aggs/ticker/$s/range/1/day/$StartDate/$EndDate" +
              "?adjusted=true&sort=asc&limit=50000&apiKey=$polygonKey"
       Invoke-Download -Url $url -OutFile (Join-Path $polygonDir "$symbol-daily.json") -Label "POLYGON:DAILY:$symbol"
-      Start-Sleep -Seconds $RateLimitDelaySec
+      Start-Sleep -Seconds $PolygonDelaySec
     }
   } else {
     Write-Log "SKIP POLYGON missing POLYGON_API_KEY"
@@ -334,7 +337,7 @@ if (Has-Provider "twelvedata") {
   if ($twelveKey) {
     $symbols = Join-Symbols $sources.twelve_data
     Invoke-Download -Url "https://api.twelvedata.com/quote?symbol=$symbols&apikey=$twelveKey" -OutFile (Join-Path $twelveDataDir "quotes.json") -Label "TWELVEDATA:QUOTES"
-    Start-Sleep -Seconds $RateLimitDelaySec
+    Start-Sleep -Seconds $TwelveDataDelaySec
     Invoke-Download -Url "https://api.twelvedata.com/time_series?symbol=$symbols&interval=1day&start_date=$StartDate&end_date=$EndDate&apikey=$twelveKey" -OutFile (Join-Path $twelveDataDir "daily-time-series.json") -Label "TWELVEDATA:DAILY"
   } else {
     Write-Log "SKIP TWELVEDATA missing TWELVE_DATA_API_KEY"
