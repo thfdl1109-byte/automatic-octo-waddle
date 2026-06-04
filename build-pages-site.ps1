@@ -180,7 +180,7 @@ foreach ($report in (@($index.reports) | Select-Object -First $ArchiveLimit)) {
   $body = Convert-MarkdownToHtml $md
   $safeName = "$($report.date)-daily-global-finance-report.html"
   $outPath = Join-Path $reportsOutDir $safeName
-  $page = New-PageHtml -Title "Daily Report $($report.date)" -Subtitle $report.updated_at -BodyHtml $body
+  $page = New-PageHtml -Title "Daily Finance Report $($report.date)" -Subtitle $report.updated_at -BodyHtml $body
   Set-Content -Path $outPath -Value $page -Encoding UTF8
   $reportLinks.Add([pscustomobject]@{
     date = $report.date
@@ -197,7 +197,7 @@ if ($latest) {
 
 $cards = New-Object System.Collections.Generic.List[string]
 foreach ($item in ($reportLinks | Select-Object -First 30)) {
-  $cards.Add("<div class=""report-card""><a href=""$($item.href)"">$($item.date) Daily Report</a><p class=""meta"">$($item.updated_at)</p></div>") | Out-Null
+  $cards.Add("<div class=""report-card""><a href=""$($item.href)"">$($item.date) Daily Finance Report</a><p class=""meta"">$($item.updated_at)</p></div>") | Out-Null
 }
 
 $archiveRows = New-Object System.Collections.Generic.List[string]
@@ -206,7 +206,7 @@ foreach ($item in $reportLinks) {
 }
 
 $latestBlock = if ($latest) {
-  "<section class=""panel""><h2>Latest</h2><p><a href=""latest.html"">$($latest.date) Latest Report</a></p></section>"
+  "<section class=""panel""><h2>Latest</h2><p><a href=""latest.html"">$($latest.date) Daily Finance Report</a></p></section>"
 } else {
   "<section class=""panel""><h2>Latest</h2><p>No reports published yet.</p></section>"
 }
@@ -230,7 +230,7 @@ $latestBlock
 </section>
 "@
 
-$homeHtml = New-PageHtml -Title "Daily Global Finance Report" -Subtitle "Automated investment report archive" -BodyHtml $indexBody
+$homeHtml = New-PageHtml -Title "Daily Finance Report" -Subtitle "Automated investment report archive" -BodyHtml $indexBody
 Set-Content -Path (Join-Path $OutDir "index.html") -Value $homeHtml -Encoding UTF8
 
 Write-Host "Wrote GitHub Pages site to $OutDir"
