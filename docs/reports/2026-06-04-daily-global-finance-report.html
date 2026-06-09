@@ -1,0 +1,245 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Finance Report 2026-06-04</title>
+  <style>
+    :root { color-scheme: light; --ink:#1d252f; --muted:#667085; --line:#d9dee7; --panel:#f6f8fb; --accent:#0f766e; --accent2:#334155; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, "Malgun Gothic", sans-serif; color:var(--ink); background:#ffffff; line-height:1.65; }
+    header { border-bottom:1px solid var(--line); background:#f9fafb; }
+    .wrap { max-width:1080px; margin:0 auto; padding:28px 20px; }
+    nav { display:flex; gap:14px; flex-wrap:wrap; margin-bottom:18px; font-size:14px; }
+    nav a { color:var(--accent); text-decoration:none; font-weight:700; }
+    h1 { margin:0 0 8px; font-size:30px; line-height:1.25; letter-spacing:0; }
+    h2 { margin-top:30px; padding-top:10px; border-top:1px solid var(--line); font-size:22px; }
+    h3 { margin-top:24px; font-size:18px; }
+    .subtitle, .meta { color:var(--muted); margin:0; }
+    .panel { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; margin:18px 0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+    .report-card { border:1px solid var(--line); border-radius:8px; padding:14px; background:white; }
+    .report-card a { color:var(--accent2); text-decoration:none; font-weight:700; }
+    .table-wrap { overflow-x:auto; margin:16px 0; border:1px solid var(--line); border-radius:8px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:white; }
+    th, td { border-bottom:1px solid var(--line); padding:9px 10px; text-align:left; vertical-align:top; }
+    th { background:#eef2f7; font-size:14px; }
+    tr:last-child td { border-bottom:0; }
+    code { background:#eef2f7; padding:2px 5px; border-radius:4px; }
+    a { color:var(--accent); }
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:34px; padding-top:18px; font-size:13px; }
+    @media (max-width:640px) { .wrap { padding:22px 14px; } h1 { font-size:24px; } table { min-width:520px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav><a href="./index.html">Home</a><a href="./latest.html">Latest Report</a><a href="https://github.com/thfdl1109-byte/automatic-octo-waddle">GitHub</a></nav>
+      <h1>Daily Finance Report 2026-06-04</h1>
+      <p class="subtitle">2026-06-04 20:45:34</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <h1>Daily Finance Report - 2026년 6월 4일 글로벌 금융시장 브리핑</h1>
+<p>기준 시각: 2026년 6월 4일 오전 KST, 미국 2026년 6월 3일 정규장 마감 기준.</p>
+<p>수집 상태: <code>fetch-market-data.ps1</code> 실행 결과 FRED, Yahoo, Stooq, Polygon daily, Finnhub, Alpha Vantage, NewsAPI 및 파생 데이터 생성이 완료됐습니다. 요약 기준 <code>ok=125, err=0, skip=1</code>이며, 유일한 skip은 무료 플랜에서 제한될 수 있는 Polygon grouped daily 비활성화입니다. 다만 수집 직후 JSON 파일 직접 열람용 셸 생성이 간헐적으로 실패해, 아래 리포트는 수집 성공 로그와 공개 웹 확인을 함께 반영했습니다.</p>
+<h2>1) 오늘의 한 줄 결론</h2>
+<p>미국 증시는 사상 최고권에서 유가와 금리 부담을 빌미로 쉬어 갔고, 오늘은 AI 반도체 주도력이 조정장을 얼마나 방어하는지가 핵심입니다.</p>
+<h2>2) 핵심 요약</h2>
+<ul>
+<li>S&amp;P 500은 9거래일 상승 후 -0.7% 하락하며 고점 부담을 소화했습니다.</li>
+<li>중동 긴장 재부각으로 Brent가 약 1.9% 올라 97.81달러 부근까지 상승했고, 이는 인플레이션&#183;금리 경로 우려를 다시 자극했습니다.</li>
+<li>Dow와 Russell 2000의 낙폭이 컸고, 소형주는 금리 상승과 위험 회피에 더 민감하게 반응했습니다.</li>
+<li>AI&#183;반도체 테마는 여전히 시장의 핵심 축이지만, 고평가 종목에는 실적 발표 후 차익실현이 강하게 나타났습니다.</li>
+<li>이번 주는 ADP, ISM 서비스업, 주간 실업수당, 6월 5일 고용보고서로 이어지는 노동시장 주간입니다.</li>
+</ul>
+<h2>3) 미국 주요 지수</h2>
+<div class="table-wrap"><table>
+<tr>
+<th>지수</th>
+<th>등락</th>
+<th>마감</th>
+</tr>
+<tr>
+<td>S&amp;P500</td>
+<td>-0.7%</td>
+<td>7,553.68</td>
+</tr>
+<tr>
+<td>Nasdaq</td>
+<td>-0.9%</td>
+<td>26,853.98</td>
+</tr>
+<tr>
+<td>Dow</td>
+<td>-1.2%</td>
+<td>50,687.07</td>
+</tr>
+<tr>
+<td>Russell 2000</td>
+<td>-1.3%</td>
+<td>2,893.50</td>
+</tr>
+<tr>
+<td>VIX</td>
+<td>16대 추정</td>
+<td>장중 16대, 공식 종가 미확인</td>
+</tr>
+</table></div>
+<h2>4) 글로벌 참고 지수</h2>
+<div class="table-wrap"><table>
+<tr>
+<th>지역</th>
+<th>지수</th>
+<th>등락</th>
+<th>마감</th>
+</tr>
+<tr>
+<td>일본</td>
+<td>Nikkei 225</td>
+<td>약 +2.9%</td>
+<td>68,000선 상회 보도</td>
+</tr>
+<tr>
+<td>중국</td>
+<td>Shanghai Composite</td>
+<td>약 +0.5%</td>
+<td>4,076.43 부근</td>
+</tr>
+<tr>
+<td>홍콩</td>
+<td>Hang Seng</td>
+<td>-1.56%</td>
+<td>25,633.21</td>
+</tr>
+<tr>
+<td>유럽</td>
+<td>STOXX Europe 600</td>
+<td>공식 종가 미확인</td>
+<td>제한적 확인</td>
+</tr>
+<tr>
+<td>영국</td>
+<td>FTSE 100</td>
+<td>약 +0.3%</td>
+<td>10,373.51 부근</td>
+</tr>
+</table></div>
+<h2>5) 시장 해석</h2>
+<ul>
+<li>하락의 직접 계기는 주가 자체보다 유가와 금리였습니다. 중동 리스크가 Brent 100달러 재접근 가능성을 키우면, 연준의 완화 기대는 다시 뒤로 밀릴 수 있습니다.</li>
+<li>시장 폭은 대형 AI&#183;반도체 중심의 강세가 여전히 핵심입니다. 반대로 Russell 2000 약세는 랠리가 넓게 확산되기보다 일부 주도주에 집중돼 있음을 보여줍니다.</li>
+<li>Palo Alto Networks처럼 실적이 양호해도 기대치가 높은 종목은 매도 압력을 받았습니다. 지금 시장은 &quot;좋은 실적&quot;보다 &quot;더 좋아질 근거&quot;를 요구하고 있습니다.</li>
+</ul>
+<h2>6) 주요 종목/섹터 포인트</h2>
+<ul>
+<li>AI 반도체: Marvell은 엔비디아 CEO 발언 이후 AI 데이터센터 스위칭&#183;네트워크 반도체 기대가 이어졌습니다. Broadcom, Qualcomm, Lam Research, Applied Materials도 같은 공급망 관심권입니다.</li>
+<li>사이버보안: Palo Alto Networks는 이익 호조에도 주가가 하락했습니다. 실적 자체보다 밸류에이션과 가이던스 민감도가 커진 구간입니다.</li>
+<li>서버&#183;네트워크 인프라: HPE, Dell, Cisco, Corning은 AI 인프라 투자 확대와 네트워크 장비 수요 기대가 교차하는 종목군입니다.</li>
+<li>플랫폼&#183;AI 소프트웨어: Palantir 등 고멀티플 소프트웨어는 금리 상승 시 조정 민감도가 큽니다.</li>
+</ul>
+<h2>7) 매크로 변수</h2>
+<ul>
+<li>금리: 미국 국채금리가 상승하며 성장주와 소형주에 부담을 줬습니다.</li>
+<li>달러: 유가 상승과 지정학 리스크가 달러 강세 요인으로 작용할 수 있습니다.</li>
+<li>유가: Brent는 약 1.9% 오른 97.81달러 부근으로 보도됐습니다. 100달러 재돌파 여부가 인플레이션 기대의 핵심 변수입니다.</li>
+<li>금: 지정학 리스크가 유지되는 동안 안전자산 수요가 지지될 가능성이 있습니다.</li>
+<li>비트코인: 정규 주식시장보다 위험자산 심리에 민감한 구간입니다. 금리 상승과 달러 강세가 동반되면 단기 상단은 제한될 수 있습니다.</li>
+</ul>
+<h2>8) 오늘의 관찰 포인트</h2>
+<ul>
+<li>S&amp;P 500이 7,550선 부근을 지지하며 단기 과열 해소로 끝나는지 확인합니다.</li>
+<li>Nasdaq이 AI 반도체 주도력을 유지하는지, 아니면 고평가 성장주 전반으로 차익실현이 확산되는지 봅니다.</li>
+<li>Brent 100달러 접근 여부와 미국 10년물 금리 반응을 함께 확인합니다.</li>
+<li>Russell 2000의 반등 여부는 시장 폭 개선의 빠른 체크포인트입니다.</li>
+</ul>
+<h2>9) 오늘 주목할 이벤트</h2>
+<ul>
+<li>미국 생산성 최종치: 금리와 임금 인플레이션 해석에 연결됩니다.</li>
+<li>주간 실업수당: 6월 5일 비농업 고용보고서 전 노동시장 온도를 확인하는 자료입니다.</li>
+<li>Fed 발언: 유가 상승과 서비스업 경기 회복이 완화 기대를 낮추는지 확인해야 합니다.</li>
+<li>기업 실적: Broadcom, Lululemon 등 주요 실적&#183;가이던스가 업종별 리스크 선호를 가를 수 있습니다.</li>
+</ul>
+<h2>10) 리스크 레이더</h2>
+<ul>
+<li>중동 긴장 재확대와 Brent 100달러 돌파.</li>
+<li>금리 상승에 따른 고멀티플 AI&#183;소프트웨어 차익실현.</li>
+<li>소형주와 시장 폭 약화가 대형주 랠리 피로로 번지는 흐름.</li>
+<li>고용지표가 강하게 나오며 연준 인하 기대가 추가 후퇴하는 시나리오.</li>
+</ul>
+<h2>11) 한국시장 특이사항</h2>
+<p>6월 3일 한국 증시는 전국 동시 지방선거 휴장으로 삼성전자&#183;SK하이닉스 등 현물 주식 거래가 없었습니다. 오늘 한국 시장은 미국 AI 반도체 흐름, 유가 상승, 원/달러 환율 반응을 함께 반영할 가능성이 큽니다.</p>
+<h2>12) 오늘의 결론</h2>
+<p>오늘 시장은 AI 주도주의 체력이 유가&#183;금리 부담을 상쇄할 수 있는지를 확인하는 방어력 테스트입니다.</p>
+<h2>추가 리포트: 미국 관심/변동성 상위 10종목</h2>
+<p>수집 과정에서 <code>us-interesting-stocks.json</code> 생성은 완료됐으나, 직후 파일 직접 열람용 셸 생성이 간헐적으로 실패했습니다. 아래 목록은 수집 성공 로그에 포함된 주요 관심 종목군과 공개 웹 확인을 함께 반영했으며, 저가주&#183;레버리지 ETF&#183;단순 밈성 급등주는 제외했습니다.</p>
+<div class="table-wrap"><table>
+<tr>
+<th>순위</th>
+<th>종목</th>
+<th>왜 시장이 보는가</th>
+</tr>
+<tr>
+<td>1</td>
+<td>MRVL</td>
+<td>엔비디아 CEO의 긍정적 언급 이후 AI 데이터센터 네트워크 반도체 기대가 급격히 커졌습니다.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>HPE</td>
+<td>AI 서버&#183;인프라 수요 기대와 전일 급등 여파로 거래 관심이 높습니다.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>PANW</td>
+<td>실적은 양호했지만 높은 기대치와 밸류에이션 부담으로 하락해 사이버보안 섹터 심리를 가늠하는 종목입니다.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AVGO</td>
+<td>AI ASIC&#183;네트워크 반도체와 실적 발표 기대가 맞물려 반도체 대형주 중 핵심 체크포인트입니다.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>NVDA</td>
+<td>AI 랠리의 기준점입니다. 직접 급등락보다 관련주 전반의 밸류에이션을 결정하는 앵커 역할이 큽니다.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>QCOM</td>
+<td>AI 단말&#183;엣지 반도체 기대와 반도체 순환매의 수혜 후보로 거래 관심이 이어졌습니다.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>CSCO</td>
+<td>네트워크 장비와 AI 인프라 투자 확대 기대가 반영되며 방어적 테크 성격도 함께 부각됩니다.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>GLW</td>
+<td>AI 데이터센터 광통신&#183;인프라 수요 기대가 주가 모멘텀의 핵심입니다.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AMAT</td>
+<td>반도체 장비 투자 사이클과 AI 설비투자 지속성 판단에 중요한 종목입니다.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>PLTR</td>
+<td>AI 소프트웨어 대표 고멀티플 종목으로, 금리 상승 시 위험선호 변화를 빠르게 반영합니다.</td>
+</tr>
+</table></div>
+<h2>참고한 공개 출처</h2>
+<ul>
+<li>AP: 2026년 6월 3일 미국 주요 지수 마감 보도</li>
+<li>AP: 유가 상승과 미국 증시 조정 보도</li>
+<li>Investing.com/Reuters 계열: Marvell, HPE, 반도체&#183;AI 관련 시장 움직임</li>
+<li>Xinhua: Hang Seng 2026년 6월 3일 마감</li>
+<li>Livemint, IC Markets, Saxo: 아시아&#183;글로벌 시장 참고 지표</li>
+<li>Thomson Investment Group, TradingCharts: 2026년 6월 경제 이벤트 일정</li>
+</ul>
+  <footer>Generated by the local finance-report automation.</footer>
+  </main>
+</body>
+</html>
