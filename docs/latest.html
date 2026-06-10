@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily Finance Report 2026-06-09</title>
+  <title>Daily Finance Report 2026-06-10</title>
   <style>
     :root { color-scheme: light; --ink:#1d252f; --muted:#667085; --line:#d9dee7; --panel:#f6f8fb; --accent:#0f766e; --accent2:#334155; }
     * { box-sizing: border-box; }
@@ -35,25 +35,24 @@
   <header>
     <div class="wrap">
       <nav><a href="./index.html">Home</a><a href="./latest.html">Latest Report</a><a href="https://github.com/thfdl1109-byte/automatic-octo-waddle">GitHub</a></nav>
-      <h1>Daily Finance Report 2026-06-09</h1>
-      <p class="subtitle">2026-06-09 07:44:08</p>
+      <h1>Daily Finance Report 2026-06-10</h1>
+      <p class="subtitle">2026-06-11 07:40:01</p>
     </div>
   </header>
   <main class="wrap">
-    <h1>데일리 리포트 - 2026년 6월 9일 글로벌 금융시장 브리핑</h1>
-<p>기준 시각: 2026-06-09 13:10 KST 전후. 미국장은 2026-06-08 정규장 마감 기준입니다.</p>
-<p>데이터 품질: 로컬 수집 파이프라인 갱신 완료. <code>fred</code>, <code>yahoo</code>, <code>stooq</code>, <code>polygon</code>, <code>finnhub</code>, <code>alphavantage</code>, <code>newsapi</code> 기준 수집 결과는 ok 125건, err 0건, skip 1건이며 품질 점수는 good / 90입니다. 단, FRED 현물 WTI 1개 항목은 2026-06-01 기준으로 stale 처리되어 유가 판단은 Yahoo 선물 데이터를 우선 사용합니다.</p>
-<h2>1) 오늘의 한 줄 결론</h2>
-<p>미국장은 금요일 AI/반도체 급락 이후 반도체와 Nasdaq이 반등하며 지수 하단을 방어했지만, 시장 폭은 좁고 금리&#183;유가&#183;중동 리스크가 남아 있어 “전면 위험선호”보다는 “AI 주도주 중심의 선별 반등”으로 보는 편이 맞습니다.</p>
-<h2>2) 핵심 요약</h2>
+    <h1>데일리 리포트 - 2026년 6월 10일 미국장 마감 기준</h1>
+<p>기준 시각: 2026년 6월 10일 미국 정규장 마감, 한국시간 2026년 6월 11일 오전 기준</p>
+<p>데이터 한계: 지정된 <code>fetch-market-data.ps1</code>는 실행했으나 제한 시간 초과 후 셸 프로세스 생성 오류가 지속되어 <code>report-briefing.json</code>, <code>latest-fetch-summary.json</code>, <code>data-quality.json</code>을 직접 검증하지 못했습니다. 아래 리포트는 로컬 갱신 시도 후 확인 가능한 웹 시장 데이터와 주요 뉴스 기준으로 작성했습니다.</p>
+<h2>1. 오늘의 한 줄 결론</h2>
+<p>미국장은 AI/반도체 밸류에이션 부담, 중동발 유가&#183;인플레 우려, 금리 상승 압력이 겹치며 기술주 중심의 위험 회피 장세로 마감했습니다.</p>
+<h2>2. 핵심 요약</h2>
 <ul>
-<li>S&amp;P 500은 +0.3%, Nasdaq Composite는 +0.86%로 상승했고 Dow는 -0.16%로 소폭 하락했습니다.</li>
-<li>반등의 중심은 반도체였습니다. 로컬 breadth 기준 SMH는 SPY 대비 +4.77%p 초과 성과를 냈고, QQQ도 SPY 대비 +1.34%p 강했습니다.</li>
-<li>시장 폭은 완전히 건강하지 않습니다. RSP는 SPY보다 -0.33%p 뒤처져 동일가중 지수보다는 대형 성장주가 지수를 끌어올린 장세였습니다.</li>
-<li>매크로는 10년물 4.55%, 30년물 5.01%, DXY 100.05, WTI 선물 91.30달러, Brent 선물 94.25달러로 금리와 유가 부담이 여전히 높은 상태입니다.</li>
-<li>오늘의 관건은 반도체 반등이 단순 숏커버링을 넘어 실적&#183;수요 신뢰 회복으로 이어지는지, 그리고 CPI/PPI 대기 국면에서 금리와 유가가 재차 압박을 주는지입니다.</li>
+<li>S&amp;P 500은 1.6%, Nasdaq은 2.0% 하락하며 성장주&#183;AI 관련주의 부담이 지수 전체를 눌렀습니다.</li>
+<li>Dow도 1.9% 밀려 50,000선을 밑돌았고, Russell 2000은 1.1% 하락해 중소형주보다 대형 기술주의 압박이 더 컸습니다.</li>
+<li>5월 미국 CPI가 전년 대비 4.2%로 높아졌다는 보도와 중동 긴장에 따른 유가 상승이 금리 인하 기대를 약화시켰습니다.</li>
+<li>시장의 핵심 질문은 &quot;AI 수요가 강한가&quot;에서 &quot;AI 투자비와 자금 조달 부담을 누가 감당하는가&quot;로 이동했습니다.</li>
 </ul>
-<h2>3) 미국 주요 지수</h2>
+<h2>3. 미국 주요 지수</h2>
 <div class="table-wrap"><table>
 <tr>
 <th>지수</th>
@@ -62,322 +61,188 @@
 </tr>
 <tr>
 <td>S&amp;P 500</td>
-<td>+0.30%</td>
-<td>7,405.68</td>
+<td>-1.6%</td>
+<td>7,266.99</td>
 </tr>
 <tr>
-<td>Nasdaq Composite</td>
-<td>+0.86%</td>
-<td>25,929.66</td>
+<td>Nasdaq</td>
+<td>-2.0%</td>
+<td>25,169.50</td>
 </tr>
 <tr>
-<td>Dow Jones Industrial Average</td>
-<td>-0.16%</td>
-<td>50,786.01</td>
+<td>Dow</td>
+<td>-1.9%</td>
+<td>49,918.78</td>
 </tr>
 <tr>
 <td>Russell 2000</td>
-<td>+0.87%</td>
-<td>로컬 Yahoo 기준</td>
+<td>-1.1%</td>
+<td>2,835.46</td>
 </tr>
 <tr>
 <td>VIX</td>
-<td>로컬 산출 미표기</td>
-<td>FRED/Yahoo 수집 완료, 리포트 표에는 방향성 판단만 반영</td>
+<td>상승</td>
+<td>2개월 고점권</td>
 </tr>
 </table></div>
-<h2>4) 글로벌 참고 지수와 자산</h2>
+<h2>4. 글로벌 참고 지수</h2>
 <div class="table-wrap"><table>
 <tr>
-<th>구분</th>
-<th>지표</th>
-<th>등락/수준</th>
-<th>기준</th>
-</tr>
-<tr>
-<td>한국</td>
-<td>KOSPI</td>
-<td>Yahoo 수집 완료</td>
-<td>2026-06-09</td>
+<th>지역</th>
+<th>지수</th>
+<th>등락</th>
+<th>마감</th>
 </tr>
 <tr>
 <td>일본</td>
 <td>Nikkei 225</td>
-<td>Yahoo 수집 완료</td>
-<td>2026-06-09</td>
-</tr>
-<tr>
-<td>홍콩</td>
-<td>Hang Seng</td>
-<td>Yahoo 수집 완료</td>
-<td>2026-06-09</td>
+<td>약세</td>
+<td>확인 제한</td>
 </tr>
 <tr>
 <td>중국</td>
 <td>Shanghai Composite</td>
-<td>Yahoo 수집 완료</td>
-<td>2026-06-09</td>
+<td>약세</td>
+<td>확인 제한</td>
+</tr>
+<tr>
+<td>홍콩</td>
+<td>Hang Seng</td>
+<td>약세</td>
+<td>확인 제한</td>
 </tr>
 <tr>
 <td>유럽</td>
-<td>STOXX 600</td>
-<td>Yahoo 수집 완료</td>
-<td>2026-06-08</td>
+<td>STOXX Europe 600</td>
+<td>-0.4% 내외 장중 약세</td>
+<td>확인 제한</td>
 </tr>
 <tr>
-<td>금리</td>
-<td>미국 10년물</td>
-<td>4.55%</td>
-<td>FRED, 2026-06-05</td>
-</tr>
-<tr>
-<td>원유</td>
-<td>WTI 선물</td>
-<td>91.30달러, +0.84%</td>
-<td>Yahoo, 2026-06-08</td>
-</tr>
-<tr>
-<td>원유</td>
-<td>Brent 선물</td>
-<td>94.25달러, +1.25%</td>
-<td>Yahoo, 2026-06-08</td>
-</tr>
-<tr>
-<td>달러</td>
-<td>DXY</td>
-<td>100.05, -0.02%</td>
-<td>Yahoo, 2026-06-08</td>
-</tr>
-<tr>
-<td>환율</td>
-<td>USD/KRW</td>
-<td>1,517.98, -2.35%</td>
-<td>Yahoo, 2026-06-09</td>
-</tr>
-<tr>
-<td>비트코인</td>
-<td>BTC-USD</td>
-<td>62,775, -0.73%</td>
-<td>Yahoo, 2026-06-09</td>
+<td>영국</td>
+<td>FTSE 100</td>
+<td>-0.5% 내외 장중 약세</td>
+<td>확인 제한</td>
 </tr>
 </table></div>
-<h2>5) 시장 해석</h2>
-<p>오늘 미국시장의 핵심은 “AI 우려 해소”가 아니라 “급락 이후 핵심 반도체 밸류체인에 저가 매수 유입”입니다. Reuters는 S&amp;P 500과 Nasdaq이 반도체 반등에 힘입어 상승했고, 금요일 급락으로 사라졌던 미국 상장 반도체 시가총액 일부가 회복됐다고 보도했습니다.</p>
-<p>다만 breadth가 말하는 장세는 좁습니다. SMH와 QQQ가 강했고 IWM도 SPY 대비 양호했지만, RSP가 SPY에 뒤진 것은 지수 상승이 시장 전반의 균일한 회복이라기보다 특정 성장주&#183;반도체 쪽으로 기울었다는 뜻입니다. 그래서 오늘 장을 해석할 때는 “지수가 올랐다”보다 “누가 올렸고, 누가 못 따라왔는가”가 더 중요합니다.</p>
-<p>금리도 아직 우호적이라고 보기 어렵습니다. 10년물 4.55%, 30년물 5.01%는 고평가 성장주에 계속 할인율 부담을 줍니다. CPI/PPI가 대기 중인 상황에서 유가까지 90달러대에 머물면, 반도체 반등은 쉽게 금리 재상승 리스크와 충돌할 수 있습니다.</p>
-<h2>6) 주요 종목/섹터 포인트</h2>
-<h3>반도체: 오늘 장의 확실한 주도 섹터</h3>
+<p>글로벌 증시도 미국 기술주 조정과 중동 리스크를 반영해 전반적으로 위험자산 선호가 약했습니다.</p>
+<h2>5. 시장 해석</h2>
 <ul>
-<li>로컬 관심종목 점수 1~3위는 INTC, MRVL, MU입니다.</li>
-<li>INTC는 +11.19%, MRVL은 +9.63%, MU는 +9.87%로 반도체 반등을 주도했습니다.</li>
-<li>Reuters 계열 보도 기준 Intel은 Google TPU 위탁생산 관련 보도, Marvell은 S&amp;P 500 편입 예정 이슈가 강한 촉매였습니다.</li>
-<li>SMH는 SPY 대비 +4.77%p 초과 성과를 보여 단순 지수 반등보다 반도체 쏠림이 더 뚜렷했습니다.</li>
+<li>AI 관련주의 조정은 단순 차익실현보다 자금 조달, 설비투자, 마진 훼손 우려가 결합된 성격입니다.</li>
+<li>유가 상승과 CPI 재가속은 장기금리를 끌어올릴 수 있어 고PER 성장주 할인율 부담을 키웠습니다.</li>
+<li>Russell 2000의 낙폭이 Nasdaq보다 작았다는 점은 시장 전체 붕괴보다 AI&#183;대형 기술주 집중 매도 성격이 강하다는 신호입니다.</li>
+<li>VIX가 고점권으로 올라서면서 단기 헤지 수요가 늘었고, 오늘 장에서는 반등보다 변동성 관리가 우선입니다.</li>
 </ul>
-<h3>대형 기술주: Nasdaq은 강했지만 Apple은 부담</h3>
+<h2>6. 주요 종목/섹터 포인트</h2>
+<h3>AI 인프라 비용 부담</h3>
 <ul>
-<li>QQQ는 SPY 대비 +1.34%p 강했지만, Apple은 -1.89%로 관심종목 상위권에 하락 종목으로 포함됐습니다.</li>
-<li>GOOGL -1.42%, META -1.28%, MSFT -1.18%도 로컬 점수 상위에 포함됐습니다. 이는 단순 상승률보다 거래대금, 뉴스 노출, 핵심 watchlist 여부가 함께 반영된 결과입니다.</li>
-<li>Apple의 WWDC/AI 발표는 주가를 강하게 끌어올리기보다 “sell-on-the-news” 성격으로 소화됐습니다.</li>
+<li>Super Micro Computer는 70억 달러 규모의 주식&#183;연계증권 조달 계획으로 급락했습니다.</li>
+<li>주문잔고와 AI 서버 수요는 강하지만, 투자자는 희석과 현금흐름 부담을 먼저 가격에 반영했습니다.</li>
+<li>Broadcom, AMD, Micron 등 반도체&#183;AI 하드웨어주는 동반 약세를 보이며 AI 테마 전반의 포지션 축소를 자극했습니다.</li>
 </ul>
-<h3>에너지와 중동 리스크: 상승폭은 완화됐지만 프리미엄은 잔존</h3>
+<h3>Oracle 실적과 클라우드 투자비</h3>
 <ul>
-<li>WTI 선물은 91.30달러, Brent 선물은 94.25달러입니다.</li>
-<li>중동 긴장 완화 헤드라인에도 원유가 90달러대에 머무는 한 인플레이션 기대, 항공&#183;운송 비용, 소비 마진 부담은 계속 체크해야 합니다.</li>
-<li>로컬 news digest도 Hormuz/중동/유가 관련 뉴스를 최상위 테마로 잡고 있습니다.</li>
+<li>Oracle은 매출과 이익이 예상보다 양호했지만, AI 클라우드 확장을 위한 자본지출 부담이 주가를 시간외에서 압박했습니다.</li>
+<li>시장은 클라우드 성장률보다 그 성장을 만들기 위한 현금 소모와 향후 자금 조달 계획에 민감하게 반응했습니다.</li>
+<li>오늘 확인할 포인트는 AI 인프라 기업들의 매출 성장보다 자유현금흐름과 자본조달 조건입니다.</li>
 </ul>
-<h3>시장 폭: 반도체 리더십과 좁은 breadth의 공존</h3>
-<div class="table-wrap"><table>
-<tr>
-<th>비교</th>
-<th>A</th>
-<th>B</th>
-<th>상대 성과</th>
-</tr>
-<tr>
-<td>동일가중 vs 시총가중</td>
-<td>RSP</td>
-<td>SPY</td>
-<td>-0.33%p</td>
-</tr>
-<tr>
-<td>소형주 vs S&amp;P 500</td>
-<td>IWM</td>
-<td>SPY</td>
-<td>+0.65%p</td>
-</tr>
-<tr>
-<td>Nasdaq 100 vs S&amp;P 500</td>
-<td>QQQ</td>
-<td>SPY</td>
-<td>+1.34%p</td>
-</tr>
-<tr>
-<td>반도체 vs S&amp;P 500</td>
-<td>SMH</td>
-<td>SPY</td>
-<td>+4.77%p</td>
-</tr>
-<tr>
-<td>금융 vs S&amp;P 500</td>
-<td>XLF</td>
-<td>SPY</td>
-<td>-0.86%p</td>
-</tr>
-<tr>
-<td>유틸리티 vs S&amp;P 500</td>
-<td>XLU</td>
-<td>SPY</td>
-<td>-2.10%p</td>
-</tr>
-</table></div>
-<h2>7) 매크로 변수</h2>
+<h3>방어적 실적주 차별화</h3>
 <ul>
-<li>금리: 미국 2년물 4.17%, 10년물 4.55%, 30년물 5.01%입니다. 장기금리가 더 오르면 AI/소프트웨어/장기 성장주의 밸류에이션 부담이 커집니다.</li>
-<li>달러: DXY는 100.05로 큰 방향성은 제한적이지만, 강한 고용과 지정학 리스크가 달러 하단을 받치는 구도입니다.</li>
-<li>유가: WTI/Brent 선물은 90달러대입니다. FRED 현물 WTI는 stale 항목이므로 오늘 판단에는 선물 데이터를 우선 반영합니다.</li>
-<li>금: Yahoo 기준 금은 4,335.90달러로 -0.03%였습니다. 금리 상승 부담과 안전자산 수요가 엇갈리는 구간입니다.</li>
-<li>비트코인: 62,775달러, -0.73%로 위험자산 반등에 비해 탄력은 약했습니다.</li>
+<li>Cracker Barrel은 예상 밖 흑자와 가이던스 상향으로 급등했습니다.</li>
+<li>Casey&#39;s General Stores도 실적 호조로 강세를 보이며 소비주 안에서도 선별적 매수세가 살아 있음을 보여줬습니다.</li>
+<li>다만 이 흐름은 시장 전체 위험선호 회복보다는 개별 실적 기반의 방어적 알파에 가깝습니다.</li>
 </ul>
-<h2>8) 오늘의 관찰 포인트</h2>
+<h2>7. 매크로 변수</h2>
 <ul>
-<li>Nasdaq 반등이 반도체 몇 종목에 머무는지, 소프트웨어&#183;인터넷&#183;소비 성장주로 확산되는지</li>
-<li>INTC 급등이 파운드리 재평가로 이어지는지, 단발성 뉴스 반응으로 끝나는지</li>
-<li>MRVL 편입 이벤트가 6월 22일 편입 전까지 수급 모멘텀을 이어가는지</li>
-<li>MU와 SMCI 강세가 AI 서버/메모리 사이클 신뢰 회복으로 연결되는지</li>
-<li>WTI/Brent가 90달러대에서 안정되는지, CPI/PPI 전 금리 부담을 다시 키우는지</li>
-<li>RSP가 SPY를 따라잡는지 여부. 이 지표가 개선되지 않으면 지수 반등의 내구성은 제한적입니다.</li>
+<li>금리: 10년물 미 국채금리는 4.5%대 중반으로 거론되며 성장주 밸류에이션에 부담을 줬습니다.</li>
+<li>달러: 지정학 리스크와 금리 상승 조합에서는 달러 강세 압력이 유지되기 쉽습니다.</li>
+<li>유가: 중동 긴장과 해상 운송 차질 우려로 브렌트유가 상승하며 인플레 재가속 우려를 키웠습니다.</li>
+<li>금: 안전자산 수요에도 불구하고 높은 실질금리와 달러 부담으로 변동성이 확대됐습니다.</li>
+<li>비트코인: 위험자산 전반의 디레버리징 분위기 속에서 주식과 함께 압박받는 흐름입니다.</li>
 </ul>
-<h2>9) 오늘 주목할 이벤트</h2>
+<h2>8. 오늘의 관찰 포인트</h2>
 <ul>
-<li>미국 CPI 대기: 이번 주 가장 큰 매크로 이벤트입니다. 근원물가가 높으면 금리와 성장주 밸류에이션에 즉시 부담입니다.</li>
-<li>미국 PPI 대기: 기업 비용 압력과 마진 전망을 확인하는 지표입니다.</li>
-<li>Oracle 실적 대기: 클라우드, AI 인프라, 데이터센터 투자 사이클을 확인할 수 있습니다.</li>
-<li>장기물 국채 입찰: 10년물&#183;30년물 금리가 높은 구간이라 수요가 약하면 성장주에 압박이 커질 수 있습니다.</li>
-<li>중동 헤드라인: 공격 중단 또는 충돌 재개 여부가 유가와 위험선호를 동시에 흔들 수 있습니다.</li>
+<li>Nasdaq이 장중 저점을 다시 시험하는지, 아니면 AI 대형주에서 저가 매수가 들어오는지 확인해야 합니다.</li>
+<li>반도체 ETF와 AI 서버주가 시장보다 약하면 조정은 테마 축소로 이어질 가능성이 큽니다.</li>
+<li>유가가 추가 상승하면 CPI와 기대 인플레이션 경로가 다시 시장의 1순위 변수로 올라올 수 있습니다.</li>
+<li>VIX가 20선 위에서 유지되면 단기 반등이 나와도 추격 매수보다 리스크 관리가 우선입니다.</li>
 </ul>
-<h2>10) 리스크 레이더</h2>
+<h2>9. 오늘 주목할 이벤트</h2>
 <ul>
-<li>반도체 반등이 매우 강했지만 breadth는 좁습니다.</li>
-<li>AI/반도체 고평가 부담은 하루 반등으로 해소되지 않았습니다.</li>
-<li>10년물 4.55%, 30년물 5.01%는 성장주에 우호적인 금리 환경이 아닙니다.</li>
-<li>WTI/Brent가 90달러대에 있어 물가 기대와 소비 비용 리스크가 남아 있습니다.</li>
-<li>Apple 등 일부 대형 기술주는 AI 발표에도 부진해 대형 기술주 내부 차별화가 커지고 있습니다.</li>
-<li>데이터 품질은 good이지만 FRED 현물 WTI 1개 항목은 stale이므로 유가 판단은 선물 중심으로 봐야 합니다.</li>
+<li>Oracle 실적 이후 컨퍼런스콜과 AI 인프라 투자 계획에 대한 시장 재평가</li>
+<li>중동 관련 헤드라인과 원유 운송 차질 여부</li>
+<li>미국 금리와 달러 반응, 특히 10년물 금리 4.5%대 안착 여부</li>
+<li>AI&#183;반도체 주요주 장전 반응과 기관 매도 지속 여부</li>
 </ul>
-<h2>11) 한국시장 체크포인트</h2>
-<p>한국시장은 반도체 비중이 높아 미국 반도체 반등의 후행 영향을 받을 가능성이 큽니다. 다만 오늘 체크포인트는 단순 갭 메우기보다 외국인 수급, 원/달러 환율, SK하이닉스&#183;삼성전자 반응입니다. USD/KRW가 1,517.98로 수집됐고 변동폭도 컸기 때문에, 반도체 주가가 반등하더라도 환율과 외국인 매매가 확인되지 않으면 지속성 판단은 보류해야 합니다.</p>
-<h2>12) 오늘의 결론</h2>
-<p>오늘의 결론: 미국장은 AI 반도체가 지수를 되살렸지만, 동일가중 지수와 방어 섹터가 따라오지 못한 좁은 반등입니다. 오늘은 추격 매수보다 SMH&#183;QQQ 주도력이 RSP&#183;금융&#183;산업재로 확산되는지, 그리고 금리&#183;유가가 반등을 방해하지 않는지 확인하는 날입니다.</p>
+<h2>10. 리스크 레이더</h2>
+<ul>
+<li>AI 설비투자 사이클이 매출 성장을 만들기 전에 자금 조달 부담을 먼저 키울 위험</li>
+<li>유가 상승이 CPI를 재자극해 연준의 완화 기대를 더 늦출 위험</li>
+<li>지정학 헤드라인에 따른 장중 변동성 확대</li>
+<li>VIX 상승과 기술주 쏠림 해소가 맞물릴 경우 패시브&#183;모멘텀 매도 확대 가능성</li>
+</ul>
+<h2>11. 한국시장 특이사항</h2>
+<p>미국 AI&#183;반도체 조정이 삼성전자, SK하이닉스 등 대형 반도체주와 코스피 위험선호에 부담으로 작용할 수 있습니다. 원/달러 환율이 중동 리스크와 달러 강세를 반영해 급등하는지도 함께 확인해야 합니다.</p>
+<h2>12. 오늘의 결론</h2>
+<p>오늘 시장은 AI 성장 스토리보다 자본비용과 인플레 리스크를 먼저 가격에 반영한 방어적 장세였습니다.</p>
 <h2>추가 리포트: 미국 관심/변동성 상위 10종목</h2>
-<p>로컬 <code>us-interesting-stocks.json</code> 기준입니다. 점수는 등락률뿐 아니라 거래대금, core watchlist 포함 여부, 뉴스 노출을 함께 반영합니다.</p>
 <div class="table-wrap"><table>
 <tr>
 <th>순위</th>
 <th>종목</th>
-<th>섹터</th>
-<th>점수</th>
-<th>등락</th>
-<th>가격</th>
 <th>시장이 보는 이유</th>
 </tr>
 <tr>
 <td>1</td>
-<td>INTC</td>
-<td>semiconductors</td>
-<td>112.58</td>
-<td>+11.19%</td>
-<td>110.27</td>
-<td>Google TPU 위탁생산 보도와 파운드리 재평가 기대가 강한 촉매였습니다.</td>
+<td>SMCI</td>
+<td>70억 달러 자금 조달 계획으로 급락. AI 서버 주문은 강하지만 희석과 현금흐름 부담이 핵심 리스크로 부각.</td>
 </tr>
 <tr>
 <td>2</td>
-<td>MRVL</td>
-<td>semiconductors</td>
-<td>107.90</td>
-<td>+9.63%</td>
-<td>288.85</td>
-<td>S&amp;P 500 편입 예정과 AI 네트워킹 수요 기대가 겹쳤습니다.</td>
+<td>ORCL</td>
+<td>실적은 양호했으나 AI 클라우드 투자비와 향후 자금 조달 부담이 시간외 약세를 유발.</td>
 </tr>
 <tr>
 <td>3</td>
-<td>MU</td>
-<td>semiconductors</td>
-<td>106.61</td>
-<td>+9.87%</td>
-<td>949.28</td>
-<td>메모리와 AI 서버 수요에 민감한 고베타 반도체로 반등 탄력이 컸습니다.</td>
+<td>AVGO</td>
+<td>최근 AI 매도 확산의 중심축. 가이던스와 밸류에이션 부담이 반도체 전반 심리에 영향.</td>
 </tr>
 <tr>
 <td>4</td>
-<td>TSLA</td>
-<td>consumer growth</td>
-<td>89.97</td>
-<td>+4.59%</td>
-<td>408.95</td>
-<td>성장주 반등과 거래대금 측면에서 관심도가 높았습니다.</td>
+<td>AMD</td>
+<td>AI&#183;반도체 포지션 축소 속 동반 약세. 데이터센터 수요 기대와 밸류에이션 부담의 균형이 관건.</td>
 </tr>
 <tr>
 <td>5</td>
-<td>AAPL</td>
-<td>mega-cap tech</td>
-<td>82.66</td>
-<td>-1.89%</td>
-<td>301.54</td>
-<td>WWDC AI 발표에도 주가가 약해 대형 기술주 내부 차별화의 핵심 관찰 종목입니다.</td>
+<td>MU</td>
+<td>메모리 업황 기대에도 AI 하드웨어 조정의 영향권. 고베타 반도체로 수급 민감도 높음.</td>
 </tr>
 <tr>
 <td>6</td>
-<td>GOOGL</td>
-<td>mega-cap tech</td>
-<td>81.25</td>
-<td>-1.42%</td>
-<td>363.31</td>
-<td>Intel TPU 뉴스의 상대 축이면서 자체 AI 칩&#183;클라우드 CapEx 기대가 함께 반영됩니다.</td>
+<td>NVDA</td>
+<td>AI 대표주로 시장 방향성을 결정하는 핵심 바로미터. 직접 뉴스보다 테마 전체 디레버리징 영향이 큼.</td>
 </tr>
 <tr>
 <td>7</td>
-<td>META</td>
-<td>mega-cap tech</td>
-<td>80.85</td>
-<td>-1.28%</td>
-<td>585.39</td>
-<td>대형 인터넷/AI 투자주 중 상대적으로 약해 breadth 확인용입니다.</td>
+<td>CBRL</td>
+<td>예상 밖 흑자와 연간 전망 상향으로 급등. 소비 둔화 우려 속 개별 실적 차별화 사례.</td>
 </tr>
 <tr>
 <td>8</td>
-<td>MSFT</td>
-<td>software</td>
-<td>80.55</td>
-<td>-1.18%</td>
-<td>411.74</td>
-<td>AI 소프트웨어와 클라우드 수요의 대표 기준 종목입니다.</td>
+<td>CASY</td>
+<td>실적 호조로 강세. 방어적 소비주 중 가격 전가력과 마진 안정성이 재평가.</td>
 </tr>
 <tr>
 <td>9</td>
-<td>SMCI</td>
-<td>AI infrastructure</td>
-<td>80.51</td>
-<td>+5.64%</td>
-<td>43.99</td>
-<td>AI 서버 인프라 반등이 반도체 밖으로 확산되는지 확인하는 종목입니다.</td>
+<td>HOOD</td>
+<td>애널리스트 목표가 상향과 언더라이팅 승인 이슈로 강세. 위험자산 약세 속에서도 개별 촉매가 작동.</td>
 </tr>
 <tr>
 <td>10</td>
-<td>INHD</td>
-<td>other</td>
-<td>79.00</td>
-<td>+3660.95%</td>
-<td>39.49</td>
-<td>Alpha Vantage top gainer 기반으로 포착됐지만 변동성이 과도해 유동성&#183;이벤트성 종목으로만 분류합니다.</td>
+<td>TSLA</td>
+<td>고밸류 성장주와 위험자산 심리에 민감. AI&#183;기술주 매도와 금리 상승 국면에서 계속 관찰 필요.</td>
 </tr>
 </table></div>
-<h2>확인 원천</h2>
-<ul>
-<li>로컬 파이프라인: <code>data/derived/report-briefing.md</code>, <code>macro-snapshot.md</code>, <code>market-breadth.md</code>, <code>us-interesting-stocks.md</code>, <code>data-quality.md</code></li>
-<li>Reuters/MarketScreener: 2026-06-08 미국장 마감, 반도체 반등, Intel/Marvell 촉매</li>
-<li>Reuters/Yahoo Finance 계열: 유가, 중동 리스크, Oracle&#183;CPI/PPI 대기 이슈</li>
-<li>Yahoo/FRED/Stooq/Finnhub/Alpha Vantage/NewsAPI: 가격&#183;매크로&#183;뉴스 수집 원천</li>
-</ul>
+<p>자료 참고: AP, MarketWatch, Barron&#39;s, Investopedia, The Guardian의 2026년 6월 10일 시장 보도.</p>
   <footer>Generated by the local finance-report automation.</footer>
   </main>
 </body>
